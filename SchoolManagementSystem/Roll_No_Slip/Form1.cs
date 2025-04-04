@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 using SchoolManagementSystem.Exam;
 
 namespace SchoolManagementSystem.Roll_No_Slip
@@ -37,6 +38,13 @@ namespace SchoolManagementSystem.Roll_No_Slip
                 Section = section,
                 Session = session
             };
+
+            // Automatically fetch subjects when student details are set
+            examSubjects = FetchExamSubjectsFromDatabase(className, section);
+            if (examSubjects != null && examSubjects.Count > 0)
+            {
+                GenerateRollNoSlip();
+            }
         }
 
         public void SetExamSubjects(List<ExamSubject> subjects)
@@ -45,7 +53,7 @@ namespace SchoolManagementSystem.Roll_No_Slip
             GenerateRollNoSlip();
         }
 
-        private void GenerateRollNoSlip()
+        public void GenerateRollNoSlip()
         {
             mainContainer.SuspendLayout();
             mainContainer.Controls.Clear();
@@ -204,6 +212,63 @@ namespace SchoolManagementSystem.Roll_No_Slip
 4) SSMPs reserves the right to modify the date sheet of annual exam due to weather and any other certain  situation  .";
         }
 
+        private List<ExamSubject> FetchExamSubjectsFromDatabase(string className, string section)
+        {
+            List<ExamSubject> subjects = new List<ExamSubject>();
+            string connectionString = "server=localhost;database=tnsbay_school;uid=root;pwd=;";
+
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "SELECT subject, date FROM datesheet WHERE class = @className AND section = @section ORDER BY date";
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@className", className);
+                        command.Parameters.AddWithValue("@section", section);
+
+                        using (MySqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                DateTime examDate = reader.GetDateTime("date");
+                                string subjectName = reader.GetString("subject");
+
+                                using (var timeDialog = new ExamTimeDialog(subjectName, examDate))
+                                {
+                                    if (timeDialog.ShowDialog() == DialogResult.OK)
+                                    {
+                                        subjects.Add(new ExamSubject
+                                        {
+                                            SubjectName = subjectName,
+                                            Date = examDate,
+                                            StartTime = timeDialog.StartTime,
+                                            EndTime = timeDialog.EndTime
+                                        });
+                                    }
+                                    else
+                                    {
+                                        // User canceled - return null to abort slip generation
+                                        return null;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error fetching exam subjects: " + ex.Message, "Database Error",
+                               MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+
+            return subjects;
+        }
+
         private void btnResetNotes_Click(object sender, EventArgs e)
         {
             rtbNotes.Text = GetNotesText();
@@ -267,6 +332,107 @@ namespace SchoolManagementSystem.Roll_No_Slip
                 btnPrint.Visible = printButtonVisible;
                 btnResetNotes.Visible = resetButtonVisible;
             }
+        }
+    }
+
+    public class ExamTimeDialog : Form
+    {
+        public DateTime StartTime { get; private set; }
+        public DateTime EndTime { get; private set; }
+        public string SubjectName { get; private set; }
+
+        private DateTimePicker dateTimePickerStart;
+        private DateTimePicker dateTimePickerEnd;
+        private Button btnOK;
+        private Button btnCancel;
+        private Label label1;
+        private Label label2;
+
+        public ExamTimeDialog(string subjectName, DateTime examDate)
+        {
+            SubjectName = subjectName;
+            Text = $"Set Times for {subjectName}";
+
+            InitializeComponents();
+
+            // Set default times (9 AM to 12 PM)
+            dateTimePickerStart.Value = examDate.Date.AddHours(9);
+            dateTimePickerEnd.Value = examDate.Date.AddHours(12);
+        }
+
+        private void InitializeComponents()
+        {
+            this.label1 = new Label();
+            this.label2 = new Label();
+            this.dateTimePickerStart = new DateTimePicker();
+            this.dateTimePickerEnd = new DateTimePicker();
+            this.btnOK = new Button();
+            this.btnCancel = new Button();
+
+            // label1
+            this.label1.AutoSize = true;
+            this.label1.Location = new Point(20, 20);
+            this.label1.Text = "Start Time:";
+
+            // label2
+            this.label2.AutoSize = true;
+            this.label2.Location = new Point(20, 60);
+            this.label2.Text = "End Time:";
+
+            // dateTimePickerStart
+            this.dateTimePickerStart.Format = DateTimePickerFormat.Custom;
+            this.dateTimePickerStart.CustomFormat = "MM/dd/yyyy hh:mm tt";
+            this.dateTimePickerStart.Location = new Point(100, 20);
+            this.dateTimePickerStart.Size = new Size(200, 20);
+            this.dateTimePickerStart.ShowUpDown = true;
+
+            // dateTimePickerEnd
+            this.dateTimePickerEnd.Format = DateTimePickerFormat.Custom;
+            this.dateTimePickerEnd.CustomFormat = "MM/dd/yyyy hh:mm tt";
+            this.dateTimePickerEnd.Location = new Point(100, 60);
+            this.dateTimePickerEnd.Size = new Size(200, 20);
+            this.dateTimePickerEnd.ShowUpDown = true;
+
+            // btnOK
+            this.btnOK.Location = new Point(100, 100);
+            this.btnOK.Text = "OK";
+            this.btnOK.Click += new EventHandler(this.btnOK_Click);
+
+            // btnCancel
+            this.btnCancel.Location = new Point(200, 100);
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Click += new EventHandler(this.btnCancel_Click);
+
+            // Form settings
+            this.ClientSize = new Size(320, 140);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.dateTimePickerStart);
+            this.Controls.Add(this.dateTimePickerEnd);
+            this.Controls.Add(this.btnOK);
+            this.Controls.Add(this.btnCancel);
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterParent;
+        }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            if (dateTimePickerEnd.Value <= dateTimePickerStart.Value)
+            {
+                MessageBox.Show("End time must be after start time", "Invalid Times");
+                return;
+            }
+
+            StartTime = dateTimePickerStart.Value;
+            EndTime = dateTimePickerEnd.Value;
+            DialogResult = DialogResult.OK;
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
         }
     }
 }

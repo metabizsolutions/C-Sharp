@@ -166,31 +166,25 @@ namespace SchoolManagementSystem.Exam
                 {
                     if (studentDialog.ShowDialog() == DialogResult.OK)
                     {
-                        using (var examDialog = new ExamSubjectsDialog())
-                        {
-                            if (examDialog.ShowDialog() == DialogResult.OK)
-                            {
-                                // Create the form using fully qualified namespace
-                                var rollNoSlip = new SchoolManagementSystem.Roll_No_Slip.Form1();
+                        // Create the form using fully qualified namespace
+                        var rollNoSlip = new SchoolManagementSystem.Roll_No_Slip.Form1();
 
-                                // Set student details
-                                rollNoSlip.SetStudentDetails(
-                                    studentDialog.SelectedName,
-                                    studentDialog.SelectedFatherName,
-                                    studentDialog.SelectedRollNo,
-                                    studentDialog.SelectedGroup,
-                                    studentDialog.SelectedGender,
-                                    studentDialog.SelectedClass,
-                                    studentDialog.SelectedSection,
-                                    studentDialog.SelectedSession
-                                );
+                        // Set student details - this will automatically:
+                        // 1. Store the student details
+                        // 2. Fetch exam subjects from database
+                        // 3. Call GenerateRollNoSlip()
+                        rollNoSlip.SetStudentDetails(
+                            studentDialog.SelectedName,
+                            studentDialog.SelectedFatherName,
+                            studentDialog.SelectedRollNo,
+                            studentDialog.SelectedGroup,
+                            studentDialog.SelectedGender,
+                            studentDialog.SelectedClass,
+                            studentDialog.SelectedSection,
+                            studentDialog.SelectedSession
+                        );
 
-                                // Set exam subjects
-                                rollNoSlip.SetExamSubjects(examDialog.ExamSubjects);
-
-                                rollNoSlip.Show();
-                            }
-                        }
+                        rollNoSlip.Show();
                     }
                 }
             }

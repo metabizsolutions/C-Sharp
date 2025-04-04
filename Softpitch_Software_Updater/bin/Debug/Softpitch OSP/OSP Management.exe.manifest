@@ -2755,14 +2755,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSP Management.exe" size="14595072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSP Management.exe" size="14596608">
       <assemblyIdentity name="OSP Management" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>l1V0Qf1TBH498AB+ek26lYBExN5pxs0XHNNlsWHZvgU=</dsig:DigestValue>
+        <dsig:DigestValue>QH4N4O1vwgeMZNFNeL+xGDesnrPQ+CeptASPbmwtVY8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2774,7 +2774,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7OLMY/cYG96NaYucI4DCJ3/PBjS6fXWnEaQW7gEoBJE=</dsig:DigestValue>
+        <dsig:DigestValue>TnJYjrv2wGFQk7oKbBwDld/SD9d35T6G+SOvtBTtKhU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2786,7 +2786,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9f6aiMfj3951M/2emmsaKkcBhQr1edGSHOII5X9Sn7I=</dsig:DigestValue>
+        <dsig:DigestValue>7CcMEWELrC5nDlvbC/Xattj8NNdUYi2I5GpN1yl/+DY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2798,7 +2798,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2QIdJld10umdPX4fAMtQUfIMSB818Re8wOIl+AEhZi0=</dsig:DigestValue>
+        <dsig:DigestValue>ashyb80tkGpVps2EL2i5LF0Kq2jKYbdeJQMPdKbENHQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2810,7 +2810,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0e+7JIdJPGyU9Tssl+ftybWry0W3A90fhgDUC1Gbx7E=</dsig:DigestValue>
+        <dsig:DigestValue>tZqD63smNepWhaeotufytlZP7dHRB1/iSYfm9lX70o4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3039,13 +3039,13 @@
       <dsig:DigestValue>7q7nGWspp0gzQgy8ZscjRq/qz1VUR1etcio6v0a0TNk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="OSP Management.exe.config" size="5411">
+  <file name="OSP Management.exe.config" size="5311">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>sM3ZfglB6QvnNkQw3pQLPjsMK2JkJzUu2eiOqtKHhCw=</dsig:DigestValue>
+      <dsig:DigestValue>lLlzCcfGfXmDR4xnQhmLLdnuym2+2DeSFYtX1DzLJug=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ospicon.ico" size="67646">
@@ -3093,13 +3093,13 @@
       <dsig:DigestValue>cKY0Uv/8ununyUb6gV2zC5Y5+admtRa/ANp3jcenMyc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\HTMLPage1.html" size="205">
+  <file name="Resources\HTMLPage1.html" size="195">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Yac3k71Tw1hfzzj27hgqatlJHosdrIZeun9wdSNHt44=</dsig:DigestValue>
+      <dsig:DigestValue>ZUXqN6uZVFHMa9zPg9xjbJE4bhrmLmm+siWWoBJdhUQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\PassOutCard.snx" size="23076">
