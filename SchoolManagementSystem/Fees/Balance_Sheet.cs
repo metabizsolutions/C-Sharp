@@ -7,6 +7,7 @@ using DevExpress.XtraGrid;
 using DevExpress.XtraReports.UI;
 using DevExpress.LookAndFeel;
 using System.Drawing;
+using SchoolAccountingSystem;
 
 namespace SchoolManagementSystem.Fees
 {
@@ -140,5 +141,53 @@ namespace SchoolManagementSystem.Fees
             FillGridExpanseManege();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // 1. Prepare your account data (this would typically come from your database)
+            DataTable accounts = new DataTable();
+            accounts.Columns.Add("id", typeof(int));
+            accounts.Columns.Add("title", typeof(string));
+            accounts.Columns.Add("code", typeof(string));
+
+            // Add sample data (replace with your actual data)
+            accounts.Rows.Add(1, "Cash Account", "CA001");
+            accounts.Rows.Add(2, "Bank Account", "BA001");
+            accounts.Rows.Add(3, "Expense Account", "EA001");
+
+            // 2. Create and show the AccountSelectionForm
+            using (AccountSelectionForm accountForm = new AccountSelectionForm(accounts))
+            {
+                // Show as dialog (modal form)
+                if (accountForm.ShowDialog() == DialogResult.OK)
+                {
+                    // 3. Handle the selected account after form closes
+                    int selectedId = accountForm.SelectedAccountId;
+                    string selectedName = accountForm.SelectedAccountName;
+
+                    // Do something with the selected account
+                    MessageBox.Show($"You selected: {selectedName} (ID: {selectedId})");
+
+                    // Example: Display in a textbox if you have one
+                    // textBox1.Text = $"{selectedName} ({selectedId})";
+                }
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Create and show the TransactionForm
+            using (MainTransactionForm transactionForm = new MainTransactionForm())
+            {
+                // Show as dialog (modal form)
+                transactionForm.ShowDialog();
+
+                // Optional: Check if the transaction was saved
+                if (transactionForm.DialogResult == DialogResult.OK)
+                {
+                    // You can add code here to handle successful transaction
+                    MessageBox.Show("Transaction completed successfully!");
+                }
+            }
+        }
     }
 }
