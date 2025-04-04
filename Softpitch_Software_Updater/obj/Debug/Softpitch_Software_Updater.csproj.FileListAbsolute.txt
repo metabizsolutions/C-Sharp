@@ -1,0 +1,486 @@
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\App_settings.config
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe.config
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.pdb
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\MySql.Data.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\RestSharp.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\System.Buffers.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\Ubiety.Dns.Core.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\Zstandard.Net.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\MySql.Data.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\RestSharp.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.confirm_softpitch.resources
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.Properties.Resources.resources
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.GenerateResource.cache
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.licenses
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CoreCompileInputs.cache
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CopyComplete
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.pdb
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.form_update_software.resources
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.AssemblyReference.cache
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\AltoHttp.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.system_settings.resources
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\server.Designer.cs
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\server.settings
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\sarwar_settings.dll
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\sarwar_settings.pdb
+E:\Practice\StudentManagementSGC\Softpitch_Software_Updater\bin\Debug\sarwar_settings.dll.config
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\App_settings.config
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe.config
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.pdb
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\AltoHttp.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\Microsoft.CSharp.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\MySql.Data.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\RestSharp.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\sarwar_settings.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Configuration.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Configuration.Install.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Data.DataSetExtensions.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Data.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Deployment.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Drawing.Design.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Drawing.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Windows.Forms.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Xml.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\Zstandard.Net.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\Ubiety.Dns.Core.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\System.Buffers.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\sarwar_settings.pdb
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\MySql.Data.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\RestSharp.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.AssemblyReference.cache
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.confirm_softpitch.resources
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.main_form.resources
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.Properties.Resources.resources
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.system_settings.resources
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.GenerateResource.cache
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.licenses
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CoreCompileInputs.cache
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CopyComplete
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe
+E:\Practice\StudentManagementSGC - With Class Library - Copy (2)\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.pdb
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\App_settings.config
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe.config
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.pdb
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\AltoHttp.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\Microsoft.CSharp.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\MySql.Data.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\RestSharp.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\sarwar_settings.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Configuration.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Configuration.Install.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Data.DataSetExtensions.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Data.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Deployment.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Drawing.Design.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Drawing.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Windows.Forms.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Xml.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\Zstandard.Net.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\Ubiety.Dns.Core.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\System.Buffers.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\sarwar_settings.pdb
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\MySql.Data.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\RestSharp.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.AssemblyReference.cache
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.confirm_softpitch.resources
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.main_form.resources
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.Properties.Resources.resources
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.system_settings.resources
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.GenerateResource.cache
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.licenses
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CoreCompileInputs.cache
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CopyComplete
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe
+E:\Practice\StudentManagementSGC - With Class Library - single Entry\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.pdb
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\App_settings.config
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe.config
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.pdb
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\AltoHttp.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\Microsoft.CSharp.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\MySql.Data.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\RestSharp.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\sarwar_settings.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Configuration.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Configuration.Install.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Data.DataSetExtensions.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Data.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Deployment.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Drawing.Design.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Drawing.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Windows.Forms.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Xml.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\Zstandard.Net.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\Ubiety.Dns.Core.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Buffers.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\K4os.Compression.LZ4.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\K4os.Hash.xxHash.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Memory.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\MySql.Data.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\RestSharp.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\sarwar_settings.pdb
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.AssemblyReference.cache
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.config
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.confirm_softpitch.resources
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.main_form.resources
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.Properties.Resources.resources
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.system_settings.resources
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.GenerateResource.cache
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.licenses
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CoreCompileInputs.cache
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CopyComplete
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe
+G:\Projects\tnsbay\TnsbaySchoolManagement\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.pdb
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\App_settings.config
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe.config
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.pdb
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\AltoHttp.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\Microsoft.CSharp.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\MySql.Data.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\RestSharp.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.DataAnnotations.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Configuration.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Configuration.Install.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Data.DataSetExtensions.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Data.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Deployment.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Drawing.Design.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Drawing.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Windows.Forms.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Xml.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\Zstandard.Net.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\K4os.Compression.LZ4.Streams.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\Ubiety.Dns.Core.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Buffers.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\K4os.Compression.LZ4.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\K4os.Hash.xxHash.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Memory.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\MySql.Data.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\RestSharp.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\sarwar_settings.pdb
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.config
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.confirm_softpitch.resources
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.main_form.resources
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.Properties.Resources.resources
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.system_settings.resources
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.GenerateResource.cache
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.licenses
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CopyComplete
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe
+\\Mac\Home\Documents\OSPSGC\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.pdb
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\App_settings.config
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe.config
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.exe
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\Softpitch_Software_Updater.pdb
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\AltoHttp.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\Microsoft.CSharp.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\MySql.Data.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\RestSharp.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.ComponentModel.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Configuration.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Configuration.Install.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Data.DataSetExtensions.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Data.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Deployment.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Drawing.Design.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Drawing.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Windows.Forms.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Xml.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\Zstandard.Net.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\Ubiety.Dns.Core.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Buffers.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\K4os.Compression.LZ4.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\K4os.Hash.xxHash.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Memory.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.v20.1.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\MySql.Data.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\Newtonsoft.Json.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\RestSharp.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\sarwar_settings.pdb
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.AssemblyReference.cache
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.SuggestedBindingRedirects.cache
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.config
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.confirm_softpitch.resources
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.main_form.resources
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.Properties.Resources.resources
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.system_settings.resources
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.GenerateResource.cache
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe.licenses
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.csproj.CoreCompileInputs.cache
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitc.4799057A.Up2Date
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.exe
+D:\C# Projects\OSPDESKTOP-main\OSPDESKTOP-main\Softpitch_Software_Updater\obj\Debug\Softpitch_Software_Updater.pdb

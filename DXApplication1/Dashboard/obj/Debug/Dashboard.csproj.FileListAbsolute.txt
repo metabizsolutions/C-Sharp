@@ -1,0 +1,886 @@
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\Dashboard.exe
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\Dashboard.pdb
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.CodeParser.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Win.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.UI.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Map.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.PivotGrid.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.TreeMap.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Xpo.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Presets.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Win.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraMap.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPivotGrid.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.Extensions.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.Extensions.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeMap.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Diagram.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraDiagram.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Extensions.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Win.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.UI.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Map.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.PivotGrid.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.TreeMap.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Xpo.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.UI.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Presets.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Win.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraMap.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPivotGrid.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.Extensions.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.Extensions.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeMap.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Diagram.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraDiagram.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Dashboard.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Dashboard.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Dashboard.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Dashboard.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Dashboard.v16.2.Win.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Dashboard.v16.2.Win.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Dashboard.v16.2.Win.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Dashboard.v16.2.Win.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.DataAccess.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.DataAccess.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.DataAccess.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.DataAccess.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.DataAccess.v16.2.UI.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.DataAccess.v16.2.UI.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.DataAccess.v16.2.UI.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.DataAccess.v16.2.UI.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Map.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Map.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Map.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Map.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Xpo.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Xpo.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Xpo.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Xpo.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraPivotGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraPivotGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraPivotGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraPivotGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraReports.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraReports.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraReports.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraReports.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\SchoolManagementSystem\DXApplication1\Dashboard\obj\Debug\Dashboard.csprojResolveAssemblyReference.cache
+D:\SchoolManagementSystem\DXApplication1\Dashboard\obj\Debug\Dashboard.Dashboard.resources
+D:\SchoolManagementSystem\DXApplication1\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+D:\SchoolManagementSystem\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.Cache
+D:\SchoolManagementSystem\DXApplication1\Dashboard\obj\Debug\Dashboard.exe.licenses
+D:\SchoolManagementSystem\DXApplication1\Dashboard\obj\Debug\Dashboard.exe
+D:\SchoolManagementSystem\DXApplication1\Dashboard\obj\Debug\Dashboard.pdb
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.CodeParser.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Win.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.UI.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Map.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Office.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.PivotGrid.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.TreeMap.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Xpo.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraBars.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Presets.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Win.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraMap.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPivotGrid.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.Extensions.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.Extensions.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeMap.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Diagram.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraDiagram.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Extensions.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Win.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.UI.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Map.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Office.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.PivotGrid.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.TreeMap.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Xpo.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraBars.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.UI.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Presets.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Win.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraMap.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPivotGrid.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.Extensions.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.Extensions.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeMap.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Diagram.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraDiagram.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Dashboard.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Dashboard.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Dashboard.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Dashboard.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Dashboard.v16.2.Win.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Dashboard.v16.2.Win.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Dashboard.v16.2.Win.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Dashboard.v16.2.Win.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Map.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Map.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Map.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Map.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\obj\Debug\Dashboard.csprojResolveAssemblyReference.cache
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\obj\Debug\Dashboard.Dashboard.resources
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.Cache
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\obj\Debug\Dashboard.exe.licenses
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\obj\Debug\Dashboard.exe
+C:\Users\hp\Documents\Work\SchoolManagementSystem - PC\DXApplication1\Dashboard\obj\Debug\Dashboard.pdb
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\Dashboard.exe
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\Dashboard.pdb
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.CodeParser.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Win.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.UI.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Map.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Office.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.PivotGrid.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.TreeMap.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Xpo.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraBars.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Presets.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Win.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraMap.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPivotGrid.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.Extensions.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.Extensions.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeMap.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Diagram.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraDiagram.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Extensions.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v16.2.Win.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v16.2.UI.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Map.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Office.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.PivotGrid.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.TreeMap.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Xpo.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraBars.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.UI.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Presets.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v16.2.Win.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraMap.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPivotGrid.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.Extensions.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v16.2.Extensions.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeMap.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Diagram.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraDiagram.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Dashboard.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Dashboard.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Dashboard.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Dashboard.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Dashboard.v16.2.Win.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Dashboard.v16.2.Win.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Dashboard.v16.2.Win.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Dashboard.v16.2.Win.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.DataAccess.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.DataAccess.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.DataAccess.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.DataAccess.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Map.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Map.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Map.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Map.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Xpo.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Xpo.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Xpo.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Xpo.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Presets.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraReports.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraReports.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraReports.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraReports.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.Extensions.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.csprojResolveAssemblyReference.cache
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.Dashboard.resources
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.exe.licenses
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.exe
+C:\wamp\www\tnsbay\TnsbaySchoolManagement\StudentManagementPGC\DXApplication1\Dashboard\obj\Debug\Dashboard.pdb
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\Dashboard.exe.config
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\Dashboard.exe
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\Dashboard.pdb
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.CodeParser.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v20.1.Win.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Images.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Map.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Office.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.TreeMap.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Xpo.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraBars.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v20.1.UI.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v20.1.Presets.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v20.1.Win.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraMap.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeMap.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Dashboard.v20.1.Win.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Map.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Office.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.TreeMap.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Xpo.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraBars.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v20.1.UI.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v20.1.Presets.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGauges.v20.1.Win.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraMap.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraReports.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraTreeMap.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Dashboard.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Dashboard.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Dashboard.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Dashboard.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Dashboard.v20.1.Win.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Dashboard.v20.1.Win.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Dashboard.v20.1.Win.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Dashboard.v20.1.Win.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Map.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Map.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Map.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Map.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGauges.v20.1.Presets.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGauges.v20.1.Presets.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Presets.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Presets.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.csprojAssemblyReference.cache
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.Dashboard.resources
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.exe.licenses
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.exe
+F:\Practice\StudentManagementSGC\DXApplication1\Dashboard\obj\Debug\Dashboard.pdb

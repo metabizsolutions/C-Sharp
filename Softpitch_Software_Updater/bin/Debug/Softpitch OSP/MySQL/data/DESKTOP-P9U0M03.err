@@ -1,0 +1,378 @@
+220511 10:01:15 [Note] Plugin 'FEDERATED' is disabled.
+220511 10:01:15 InnoDB: The InnoDB memory heap is disabled
+220511 10:01:15 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220511 10:01:15 InnoDB: Compressed tables use zlib 1.2.3
+220511 10:01:15 InnoDB: Initializing buffer pool, size = 128.0M
+220511 10:01:15 InnoDB: Completed initialization of buffer pool
+220511 10:01:15 InnoDB: Error: tablespace size must be at least 10 MB
+220511 10:01:15 [ERROR] Plugin 'InnoDB' init function returned error.
+220511 10:01:15 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220511 10:07:19 [Note] Plugin 'FEDERATED' is disabled.
+220511 10:07:19 InnoDB: The InnoDB memory heap is disabled
+220511 10:07:19 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220511 10:07:19 InnoDB: Compressed tables use zlib 1.2.3
+220511 10:07:19 InnoDB: Initializing buffer pool, size = 128.0M
+220511 10:07:20 InnoDB: Completed initialization of buffer pool
+220511 10:07:20 InnoDB: Error: tablespace size must be at least 10 MB
+220511 10:07:20 [ERROR] Plugin 'InnoDB' init function returned error.
+220511 10:07:20 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220511 10:21:22 [Note] Plugin 'FEDERATED' is disabled.
+220511 10:21:22 InnoDB: The InnoDB memory heap is disabled
+220511 10:21:22 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220511 10:21:22 InnoDB: Compressed tables use zlib 1.2.3
+220511 10:21:22 InnoDB: Initializing buffer pool, size = 128.0M
+220511 10:21:22 InnoDB: Completed initialization of buffer pool
+220511 10:21:22 InnoDB: Error: tablespace size must be at least 10 MB
+220511 10:21:22 [ERROR] Plugin 'InnoDB' init function returned error.
+220511 10:21:22 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220511 10:21:22 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220511 10:21:22 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220511 10:21:22 [ERROR] Aborting
+
+220511 10:21:22 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220511 10:22:11 [Note] Plugin 'FEDERATED' is disabled.
+220511 10:22:11 InnoDB: The InnoDB memory heap is disabled
+220511 10:22:11 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220511 10:22:11 InnoDB: Compressed tables use zlib 1.2.3
+220511 10:22:11 InnoDB: Initializing buffer pool, size = 128.0M
+220511 10:22:11 InnoDB: Completed initialization of buffer pool
+220511 10:22:11 InnoDB: Error: tablespace size must be at least 10 MB
+220511 10:22:11 [ERROR] Plugin 'InnoDB' init function returned error.
+220511 10:22:11 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220511 10:22:11 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220511 10:22:11 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220511 10:22:11 [ERROR] Aborting
+
+220511 10:22:11 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220511 10:23:25 [Note] Plugin 'FEDERATED' is disabled.
+220511 10:23:25 InnoDB: The InnoDB memory heap is disabled
+220511 10:23:25 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220511 10:23:25 InnoDB: Compressed tables use zlib 1.2.3
+220511 10:23:25 InnoDB: Initializing buffer pool, size = 128.0M
+220511 10:23:25 InnoDB: Completed initialization of buffer pool
+220511 10:23:25 InnoDB: Error: tablespace size must be at least 10 MB
+220511 10:23:25 [ERROR] Plugin 'InnoDB' init function returned error.
+220511 10:23:25 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220511 10:23:25 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220511 10:23:25 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220511 10:23:25 [ERROR] Aborting
+
+220511 10:23:25 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512  9:28:59 [Note] Plugin 'FEDERATED' is disabled.
+220512  9:28:59 InnoDB: The InnoDB memory heap is disabled
+220512  9:28:59 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512  9:28:59 InnoDB: Compressed tables use zlib 1.2.3
+220512  9:28:59 InnoDB: Initializing buffer pool, size = 128.0M
+220512  9:28:59 InnoDB: Completed initialization of buffer pool
+220512  9:28:59 InnoDB: Error: tablespace size must be at least 10 MB
+220512  9:28:59 [ERROR] Plugin 'InnoDB' init function returned error.
+220512  9:28:59 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512  9:28:59 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512  9:28:59 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512  9:28:59 [ERROR] Aborting
+
+220512  9:28:59 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 10:30:36 [Note] Plugin 'FEDERATED' is disabled.
+220512 10:30:36 InnoDB: The InnoDB memory heap is disabled
+220512 10:30:36 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 10:30:36 InnoDB: Compressed tables use zlib 1.2.3
+220512 10:30:36 InnoDB: Initializing buffer pool, size = 128.0M
+220512 10:30:36 InnoDB: Completed initialization of buffer pool
+220512 10:30:36 InnoDB: Error: tablespace size must be at least 10 MB
+220512 10:30:36 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 10:30:36 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 10:30:36 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 10:30:36 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 10:30:36 [ERROR] Aborting
+
+220512 10:30:36 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 11:46:15 [Note] Plugin 'FEDERATED' is disabled.
+220512 11:46:15 InnoDB: The InnoDB memory heap is disabled
+220512 11:46:15 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 11:46:15 InnoDB: Compressed tables use zlib 1.2.3
+220512 11:46:15 InnoDB: Initializing buffer pool, size = 128.0M
+220512 11:46:15 InnoDB: Completed initialization of buffer pool
+220512 11:46:15 InnoDB: Error: tablespace size must be at least 10 MB
+220512 11:46:15 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 11:46:15 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 11:46:15 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 11:46:15 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 11:46:15 [ERROR] Aborting
+
+220512 11:46:15 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 12:08:33 [Note] Plugin 'FEDERATED' is disabled.
+220512 12:08:33 InnoDB: The InnoDB memory heap is disabled
+220512 12:08:33 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 12:08:33 InnoDB: Compressed tables use zlib 1.2.3
+220512 12:08:33 InnoDB: Initializing buffer pool, size = 128.0M
+220512 12:08:33 InnoDB: Completed initialization of buffer pool
+220512 12:08:33 InnoDB: Error: tablespace size must be at least 10 MB
+220512 12:08:33 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 12:08:33 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 12:08:33 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 12:08:33 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 12:08:33 [ERROR] Aborting
+
+220512 12:08:33 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 12:16:09 [Note] Plugin 'FEDERATED' is disabled.
+220512 12:16:09 InnoDB: The InnoDB memory heap is disabled
+220512 12:16:09 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 12:16:09 InnoDB: Compressed tables use zlib 1.2.3
+220512 12:16:09 InnoDB: Initializing buffer pool, size = 128.0M
+220512 12:16:09 InnoDB: Completed initialization of buffer pool
+220512 12:16:10 InnoDB: Error: tablespace size must be at least 10 MB
+220512 12:16:10 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 12:16:10 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 12:16:10 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 12:16:10 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 12:16:10 [ERROR] Aborting
+
+220512 12:16:10 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 12:32:03 [Note] Plugin 'FEDERATED' is disabled.
+220512 12:32:03 InnoDB: The InnoDB memory heap is disabled
+220512 12:32:03 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 12:32:03 InnoDB: Compressed tables use zlib 1.2.3
+220512 12:32:03 InnoDB: Initializing buffer pool, size = 128.0M
+220512 12:32:03 InnoDB: Completed initialization of buffer pool
+220512 12:32:03 InnoDB: Error: tablespace size must be at least 10 MB
+220512 12:32:03 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 12:32:03 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 12:32:03 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 12:32:03 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 12:32:03 [ERROR] Aborting
+
+220512 12:32:03 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 12:44:42 [Note] Plugin 'FEDERATED' is disabled.
+220512 12:44:42 InnoDB: The InnoDB memory heap is disabled
+220512 12:44:42 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 12:44:42 InnoDB: Compressed tables use zlib 1.2.3
+220512 12:44:42 InnoDB: Initializing buffer pool, size = 128.0M
+220512 12:44:42 InnoDB: Completed initialization of buffer pool
+220512 12:44:42 InnoDB: Error: tablespace size must be at least 10 MB
+220512 12:44:42 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 12:44:42 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 12:44:42 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 12:44:42 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 12:44:42 [ERROR] Aborting
+
+220512 12:44:42 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 12:45:43 [Note] Plugin 'FEDERATED' is disabled.
+220512 12:45:43 InnoDB: The InnoDB memory heap is disabled
+220512 12:45:43 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 12:45:43 InnoDB: Compressed tables use zlib 1.2.3
+220512 12:45:43 InnoDB: Initializing buffer pool, size = 128.0M
+220512 12:45:43 InnoDB: Completed initialization of buffer pool
+220512 12:45:43 InnoDB: Error: tablespace size must be at least 10 MB
+220512 12:45:43 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 12:45:43 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 12:45:43 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 12:45:43 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 12:45:43 [ERROR] Aborting
+
+220512 12:45:43 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 12:49:10 [Note] Plugin 'FEDERATED' is disabled.
+220512 12:49:10 InnoDB: The InnoDB memory heap is disabled
+220512 12:49:10 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 12:49:10 InnoDB: Compressed tables use zlib 1.2.3
+220512 12:49:10 InnoDB: Initializing buffer pool, size = 128.0M
+220512 12:49:10 InnoDB: Completed initialization of buffer pool
+220512 12:49:10 InnoDB: Error: tablespace size must be at least 10 MB
+220512 12:49:10 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 12:49:10 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 12:49:10 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 12:49:10 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 12:49:10 [ERROR] Aborting
+
+220512 12:49:10 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220512 13:29:01 [Note] Plugin 'FEDERATED' is disabled.
+220512 13:29:01 InnoDB: The InnoDB memory heap is disabled
+220512 13:29:01 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220512 13:29:01 InnoDB: Compressed tables use zlib 1.2.3
+220512 13:29:01 InnoDB: Initializing buffer pool, size = 128.0M
+220512 13:29:01 InnoDB: Completed initialization of buffer pool
+220512 13:29:01 InnoDB: Error: tablespace size must be at least 10 MB
+220512 13:29:01 [ERROR] Plugin 'InnoDB' init function returned error.
+220512 13:29:01 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220512 13:29:01 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220512 13:29:01 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220512 13:29:01 [ERROR] Aborting
+
+220512 13:29:01 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220513 11:22:45 [Note] Plugin 'FEDERATED' is disabled.
+220513 11:22:45 InnoDB: The InnoDB memory heap is disabled
+220513 11:22:45 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220513 11:22:45 InnoDB: Compressed tables use zlib 1.2.3
+220513 11:22:45 InnoDB: Initializing buffer pool, size = 128.0M
+220513 11:22:45 InnoDB: Completed initialization of buffer pool
+220513 11:22:45 InnoDB: Error: tablespace size must be at least 10 MB
+220513 11:22:45 [ERROR] Plugin 'InnoDB' init function returned error.
+220513 11:22:45 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220513 11:22:45 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220513 11:22:45 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220513 11:22:45 [ERROR] Aborting
+
+220513 11:22:45 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220513 11:25:17 [Note] Plugin 'FEDERATED' is disabled.
+220513 11:25:17 InnoDB: The InnoDB memory heap is disabled
+220513 11:25:17 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220513 11:25:17 InnoDB: Compressed tables use zlib 1.2.3
+220513 11:25:17 InnoDB: Initializing buffer pool, size = 128.0M
+220513 11:25:17 InnoDB: Completed initialization of buffer pool
+220513 11:25:17 InnoDB: Error: tablespace size must be at least 10 MB
+220513 11:25:17 [ERROR] Plugin 'InnoDB' init function returned error.
+220513 11:25:17 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220513 11:25:17 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220513 11:25:17 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220513 11:25:17 [ERROR] Aborting
+
+220513 11:25:17 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220513 11:25:42 [Note] Plugin 'FEDERATED' is disabled.
+220513 11:25:42 InnoDB: The InnoDB memory heap is disabled
+220513 11:25:42 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220513 11:25:42 InnoDB: Compressed tables use zlib 1.2.3
+220513 11:25:42 InnoDB: Initializing buffer pool, size = 128.0M
+220513 11:25:42 InnoDB: Completed initialization of buffer pool
+220513 11:25:42 InnoDB: Error: tablespace size must be at least 10 MB
+220513 11:25:42 [ERROR] Plugin 'InnoDB' init function returned error.
+220513 11:25:42 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220513 11:25:42 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220513 11:25:42 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220513 11:25:42 [ERROR] Aborting
+
+220513 11:25:42 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220513 11:26:22 [Note] Plugin 'FEDERATED' is disabled.
+220513 11:26:22 InnoDB: The InnoDB memory heap is disabled
+220513 11:26:22 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220513 11:26:22 InnoDB: Compressed tables use zlib 1.2.3
+220513 11:26:22 InnoDB: Initializing buffer pool, size = 128.0M
+220513 11:26:22 InnoDB: Completed initialization of buffer pool
+220513 11:26:22 InnoDB: Error: tablespace size must be at least 10 MB
+220513 11:26:22 [ERROR] Plugin 'InnoDB' init function returned error.
+220513 11:26:22 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220513 11:26:22 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220513 11:26:22 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220513 11:26:22 [ERROR] Aborting
+
+220513 11:26:22 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220513 11:26:39 [Note] Plugin 'FEDERATED' is disabled.
+220513 11:26:39 InnoDB: The InnoDB memory heap is disabled
+220513 11:26:39 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220513 11:26:39 InnoDB: Compressed tables use zlib 1.2.3
+220513 11:26:39 InnoDB: Initializing buffer pool, size = 128.0M
+220513 11:26:39 InnoDB: Completed initialization of buffer pool
+220513 11:26:39 InnoDB: Error: tablespace size must be at least 10 MB
+220513 11:26:39 [ERROR] Plugin 'InnoDB' init function returned error.
+220513 11:26:39 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220513 11:26:39 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220513 11:26:39 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220513 11:26:39 [ERROR] Aborting
+
+220513 11:26:39 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220516 10:21:46 [Note] Plugin 'FEDERATED' is disabled.
+220516 10:21:47 InnoDB: The InnoDB memory heap is disabled
+220516 10:21:47 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220516 10:21:47 InnoDB: Compressed tables use zlib 1.2.3
+220516 10:21:47 InnoDB: Initializing buffer pool, size = 128.0M
+220516 10:21:47 InnoDB: Completed initialization of buffer pool
+220516 10:21:47 InnoDB: Error: tablespace size must be at least 10 MB
+220516 10:21:47 [ERROR] Plugin 'InnoDB' init function returned error.
+220516 10:21:47 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220516 10:21:47 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220516 10:21:47 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220516 10:21:47 [ERROR] Aborting
+
+220516 10:21:47 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220516 10:32:49 [Note] Plugin 'FEDERATED' is disabled.
+220516 10:32:49 InnoDB: The InnoDB memory heap is disabled
+220516 10:32:49 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220516 10:32:49 InnoDB: Compressed tables use zlib 1.2.3
+220516 10:32:49 InnoDB: Initializing buffer pool, size = 128.0M
+220516 10:32:49 InnoDB: Completed initialization of buffer pool
+220516 10:32:49 InnoDB: Error: tablespace size must be at least 10 MB
+220516 10:32:49 [ERROR] Plugin 'InnoDB' init function returned error.
+220516 10:32:49 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220516 10:32:49 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220516 10:32:49 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220516 10:32:49 [ERROR] Aborting
+
+220516 10:32:49 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220516 10:44:25 [Note] Plugin 'FEDERATED' is disabled.
+220516 10:44:25 InnoDB: The InnoDB memory heap is disabled
+220516 10:44:25 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220516 10:44:25 InnoDB: Compressed tables use zlib 1.2.3
+220516 10:44:25 InnoDB: Initializing buffer pool, size = 128.0M
+220516 10:44:25 InnoDB: Completed initialization of buffer pool
+220516 10:44:25 InnoDB: Error: tablespace size must be at least 10 MB
+220516 10:44:25 [ERROR] Plugin 'InnoDB' init function returned error.
+220516 10:44:25 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220516 10:44:25 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220516 10:44:25 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220516 10:44:25 [ERROR] Aborting
+
+220516 10:44:25 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220516 10:49:22 [Note] Plugin 'FEDERATED' is disabled.
+220516 10:49:22 InnoDB: The InnoDB memory heap is disabled
+220516 10:49:22 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220516 10:49:22 InnoDB: Compressed tables use zlib 1.2.3
+220516 10:49:22 InnoDB: Initializing buffer pool, size = 128.0M
+220516 10:49:22 InnoDB: Completed initialization of buffer pool
+220516 10:49:22 InnoDB: Error: tablespace size must be at least 10 MB
+220516 10:49:22 [ERROR] Plugin 'InnoDB' init function returned error.
+220516 10:49:22 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220516 10:49:22 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220516 10:49:22 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220516 10:49:22 [ERROR] Aborting
+
+220516 10:49:22 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220516 10:55:56 [Note] Plugin 'FEDERATED' is disabled.
+220516 10:55:56 InnoDB: The InnoDB memory heap is disabled
+220516 10:55:56 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220516 10:55:56 InnoDB: Compressed tables use zlib 1.2.3
+220516 10:55:56 InnoDB: Initializing buffer pool, size = 128.0M
+220516 10:55:56 InnoDB: Completed initialization of buffer pool
+220516 10:55:56 InnoDB: Error: tablespace size must be at least 10 MB
+220516 10:55:56 [ERROR] Plugin 'InnoDB' init function returned error.
+220516 10:55:56 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220516 10:55:56 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220516 10:55:56 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220516 10:55:56 [ERROR] Aborting
+
+220516 10:55:56 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
+220516 12:30:23 [Note] Plugin 'FEDERATED' is disabled.
+220516 12:30:23 InnoDB: The InnoDB memory heap is disabled
+220516 12:30:23 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220516 12:30:23 InnoDB: Compressed tables use zlib 1.2.3
+220516 12:30:23 InnoDB: Initializing buffer pool, size = 128.0M
+220516 12:30:23 InnoDB: Completed initialization of buffer pool
+220516 12:30:23 InnoDB: Error: tablespace size must be at least 10 MB
+220516 12:30:23 [ERROR] Plugin 'InnoDB' init function returned error.
+220516 12:30:23 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+220516 12:30:23 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+220516 12:30:23 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220516 12:30:23 [ERROR] Aborting
+
+220516 12:30:23 [Note] F:\Practice\StudentManagementSGC - With Class Library - single Entry\SchoolManagementSystem\bin\Debug\MySQL\bin\mysqld.exe: Shutdown complete
+
