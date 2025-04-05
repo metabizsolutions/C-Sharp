@@ -38,7 +38,12 @@ namespace SchoolManagementSystem.Roll_No_Slip
                 Section = section,
                 Session = session
             };
-
+            if (!DoesSectionExistInDatesheet(className, section))
+            {
+                MessageBox.Show($"Error: No exam datesheet found for class {className} section {section}",
+                               "Invalid Section", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             // Automatically fetch subjects when student details are set
             examSubjects = FetchExamSubjectsFromDatabase(className, section);
             if (examSubjects != null && examSubjects.Count > 0)
@@ -46,7 +51,34 @@ namespace SchoolManagementSystem.Roll_No_Slip
                 GenerateRollNoSlip();
             }
         }
+        private bool DoesSectionExistInDatesheet(string className, string section)
+        {
+            string connectionString = "server=localhost;database=tnsbay_school;uid=root;pwd=;";
 
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "SELECT COUNT(*) FROM datesheet WHERE class = @className AND section = @section";
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@className", className);
+                        command.Parameters.AddWithValue("@section", section);
+
+                        int count = Convert.ToInt32(command.ExecuteScalar());
+                        return count > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error checking section existence: " + ex.Message, "Database Error",
+                               MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+        }
         public void SetExamSubjects(List<ExamSubject> subjects)
         {
             examSubjects = subjects ?? new List<ExamSubject>();
