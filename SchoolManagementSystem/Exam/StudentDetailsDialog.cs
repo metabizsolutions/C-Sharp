@@ -34,6 +34,7 @@ namespace SchoolManagementSystem.Exam
                 LoadDefaultValues();
                 LoadStudentData();
                 LoadClassData();
+                LoadSectionData(); // Load sections from database
             }
             catch (Exception ex)
             {
@@ -52,15 +53,46 @@ namespace SchoolManagementSystem.Exam
                 cmbGender.Items.Clear();
                 cmbGender.Items.AddRange(new string[] { "Male", "Female", "Other" });
                 cmbGender.SelectedIndex = 0;
-
-                // Initialize section options
-                cmbSection.Items.Clear();
-                cmbSection.Items.AddRange(new string[] { "A", "B", "C", "D" });
-                cmbSection.SelectedIndex = 0;
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error loading default values: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void LoadSectionData()
+        {
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "SELECT name FROM section"; // Assuming your table is named 'sections' with a 'section_name' column
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        using (MySqlDataReader reader = command.ExecuteReader())
+                        {
+                            cmbSection.BeginUpdate();
+                            cmbSection.Items.Clear();
+
+                            while (reader.Read())
+                            {
+                                cmbSection.Items.Add(reader["name"].ToString());
+                            }
+
+                            cmbSection.EndUpdate();
+
+                            // Set default selection if items exist
+                            if (cmbSection.Items.Count > 0) cmbSection.SelectedIndex = 0;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading section data: {ex.Message}", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

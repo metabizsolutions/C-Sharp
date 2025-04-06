@@ -10155,3 +10155,4 @@ C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Deb
 C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\SchoolMa.D9F7BBC0.Up2Date
 C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\OSP Management.exe
 C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\OSP Management.pdb
+C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Exam.StudentDetailsDialog.resources

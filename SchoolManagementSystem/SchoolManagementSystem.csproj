@@ -1877,6 +1877,9 @@
     <EmbeddedResource Include="Exam\Multi_ClassResult.resx">
       <DependentUpon>Multi_ClassResult.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exam\StudentDetailsDialog.resx">
+      <DependentUpon>StudentDetailsDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exam\SubjectTotalMarks.resx">
       <DependentUpon>SubjectTotalMarks.cs</DependentUpon>
     </EmbeddedResource>
