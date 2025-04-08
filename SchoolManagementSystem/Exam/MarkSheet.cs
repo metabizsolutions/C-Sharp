@@ -1,5 +1,4 @@
-﻿
-using DevExpress.XtraGrid;
+﻿using DevExpress.XtraGrid;
 using DevExpress.XtraGrid.Views.Base;
 using DevExpress.XtraGrid.Views.Grid;
 using SchoolManagementSystem.Exam;
@@ -59,25 +58,25 @@ namespace SchoolManagementSystem
             var classID = Convert.ToInt32(txtClass.EditValue);
             var sectionID = Convert.ToInt32(txtSection.EditValue);
 
-                var query = "SELECT student.student_id as ID, student.name as Student FROM mark " +
-                     " join student on(student.student_id = mark.student_id) and mark.class_id = student.class_id " +
-                    " where student.class_id = '" + classID + "' and student.section_id='" + sectionID + "' AND student.passout != 1 "
-                           + " GROUP BY mark.student_id ,mark.class_id";
-                DataTable table = fun.FetchDataTable(query);
-                gridClassMarkSheet.DataSource = table;
-                gridView1.BestFitColumns();
+            var query = "SELECT student.student_id as ID, student.name as Student FROM mark " +
+                 " join student on(student.student_id = mark.student_id) and mark.class_id = student.class_id " +
+                " where student.class_id = '" + classID + "' and student.section_id='" + sectionID + "' AND student.passout != 1 "
+                       + " GROUP BY mark.student_id ,mark.class_id";
+            DataTable table = fun.FetchDataTable(query);
+            gridClassMarkSheet.DataSource = table;
+            gridView1.BestFitColumns();
 
-                var examID = Convert.ToInt32(txtExam.EditValue);
-                String sql = "SELECT `name`,`date` FROM exam WHERE  exam_id = '" + examID + "'";
-                DataTable mytable = fun.FetchDataTable(sql);
-                if (mytable.Rows.Count > 0)
+            var examID = Convert.ToInt32(txtExam.EditValue);
+            String sql = "SELECT `name`,`date` FROM exam WHERE  exam_id = '" + examID + "'";
+            DataTable mytable = fun.FetchDataTable(sql);
+            if (mytable.Rows.Count > 0)
+            {
+                try
                 {
-                    try
-                    {
-                        exam_title = mytable.Rows[0]["name"] + " (" + Convert.ToDateTime(mytable.Rows[0]["date"]).ToString("dd-MM-yyyy") + ")";
-                    }
-                    catch (Exception e) { }
+                    exam_title = mytable.Rows[0]["name"] + " (" + Convert.ToDateTime(mytable.Rows[0]["date"]).ToString("dd-MM-yyyy") + ")";
                 }
+                catch (Exception e) { }
+            }
         }
         public static DataRow row;
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
@@ -106,7 +105,7 @@ namespace SchoolManagementSystem
             reports.Clear();
             fun.loaderform(() =>
             {
-                
+
                 String where = "";
                 if (student_id > 0) { where += " AND student.student_id = '" + student_id + "'"; }
                 var classID = txtClass.EditValue;
@@ -242,9 +241,9 @@ namespace SchoolManagementSystem
             if (exam_detail.Rows.Count > 0)
                 report.txtExamDate.Text = Convert.ToDateTime(exam_detail.Rows[0]["date"].ToString()).ToString("dd-MM-yyyy");
 
-            
+
             ObservableCollection<Result> resultCard = new ObservableCollection<Result>();
-            DataTable table = fun.classresult("%Avg", Convert.ToInt32(examID), Convert.ToInt32(classID), sectionID,false);
+            DataTable table = fun.classresult("%Avg", Convert.ToInt32(examID), Convert.ToInt32(classID), sectionID, false);
             DataRow[] e_dr = table.Select("ID = '" + std_id + "'");
             double obt = 0;
             foreach (DataRow r in e_dr)
@@ -255,7 +254,7 @@ namespace SchoolManagementSystem
                     if (col == "Result" || col == "Parent" || col == "Rank" || col == "9thMarks" || col == "10thMarks" || col == "ID" || col == "Roll" || col == "Student" || col == "Phone" || col == "Section" || col == "Obtained" || col == "Total" || col == "Average") { }
                     else
                     {
-                        obt = Convert.ToDouble(string.IsNullOrEmpty(r[col].ToString()) ? 0 : r[col].ToString() == "A" ? 0 : r[col].ToString() == "N/A"?0: r[col]);
+                        obt = Convert.ToDouble(string.IsNullOrEmpty(r[col].ToString()) ? 0 : r[col].ToString() == "A" ? 0 : r[col].ToString() == "N/A" ? 0 : r[col]);
                         Result d = new Result();
                         string[] sub = col.Split('(', ')');
                         d.StdNo = r["ID"].ToString();
@@ -271,7 +270,7 @@ namespace SchoolManagementSystem
                 report.txtTotalMarks.Text = r["Total"].ToString();
                 report.txtPercentage.Text = r["Average"].ToString();
                 report.txtRanking.Text = r["Rank"].ToString();
-                
+
             }
             gridControlResultnew.DataSource = null;
             gridControlResultobj.DataSource = null;
@@ -286,7 +285,7 @@ namespace SchoolManagementSystem
             {
                 string c = view.Columns[i].FieldName;
                 view.Columns[i].Visible = false;
-                if (c == "Subject" || c== "Obtained" || c== "Total" || c== "Percentage")
+                if (c == "Subject" || c == "Obtained" || c == "Total" || c == "Percentage")
                 {
                     view.Columns[i].Visible = true;
                     view.Columns[i].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
