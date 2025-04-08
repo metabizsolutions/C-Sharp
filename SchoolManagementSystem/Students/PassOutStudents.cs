@@ -33,7 +33,7 @@ namespace SchoolManagementSystem.Students
         }
         public void result()
         {
-            var query = "SELECT `SrNo`,`Name`,`FatherName`,`FatherPhone`,`Phone`,`Class`,`Section`,`Birthday`,`Gender`,`Address`,`Roll`,`Email`,`HostelRoom`,passout_date,addmission_date FROM students where PassOut='1'";
+            var query = "SELECT `SrNo`, `Name`, `FatherName`, `FatherPhone`, `Phone`, `Class`, `Section`, `Birthday`, `Gender`, `Address`, `Roll`, `Email`, `HostelRoom`, `passout_date`, `addmission_date` FROM students WHERE PassOut='1'";
             DataTable table = fun.FetchDataTable(query);
             gridPassOut.DataSource = null;
             gridView1.Columns.Clear();
