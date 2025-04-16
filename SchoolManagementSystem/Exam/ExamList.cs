@@ -166,25 +166,32 @@ namespace SchoolManagementSystem.Exam
                 {
                     if (studentDialog.ShowDialog() == DialogResult.OK)
                     {
-                        // Create the form using fully qualified namespace
-                        var rollNoSlip = new SchoolManagementSystem.Roll_No_Slip.Form1();
+                        // Get list of selected students from dialog
+                        var selectedStudents = studentDialog.GetSelectedStudents();
 
-                        // Set student details - this will automatically:
-                        // 1. Store the student details
-                        // 2. Fetch exam subjects from database
-                        // 3. Call GenerateRollNoSlip()
-                        rollNoSlip.SetStudentDetails(
-                            studentDialog.SelectedName,
-                            studentDialog.SelectedFatherName,
-                            studentDialog.SelectedRollNo,
-                            studentDialog.SelectedGroup,
-                            studentDialog.SelectedGender,
-                            studentDialog.SelectedClass,
-                            studentDialog.SelectedSection,
-                            studentDialog.SelectedSession
-                        );
+                        if (selectedStudents == null || selectedStudents.Count == 0)
+                        {
+                            MessageBox.Show("Please select at least one student", "Info");
+                            return;
+                        }
 
-                        rollNoSlip.Show();
+                        // Generate roll no slip for each selected student
+                        foreach (var student in selectedStudents)
+                        {
+                            // Create new roll no slip form
+                            var rollNoSlip = new SchoolManagementSystem.Roll_No_Slip.Form1();
+
+                            // Updated call to SetStudentDetails in button2_Click
+                            rollNoSlip.SetStudentDetails(
+     selectedStudents,
+     studentDialog.SelectedClass,
+     studentDialog.SelectedSection,
+     studentDialog.SelectedSession
+ );
+
+                            // Show the roll no slip form
+                            rollNoSlip.Show();
+                        }
                     }
                 }
             }

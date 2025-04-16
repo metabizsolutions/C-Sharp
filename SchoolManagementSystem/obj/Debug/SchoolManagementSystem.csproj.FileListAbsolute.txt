@@ -10156,3 +10156,5 @@ C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Deb
 C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\OSP Management.exe
 C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\OSP Management.pdb
 C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Exam.StudentDetailsDialog.resources
+C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Muhammad Haseeb\Documents\GitHub\C-Sharp\SchoolManagementSystem\obj\Debug\OSP Management.exe.config
