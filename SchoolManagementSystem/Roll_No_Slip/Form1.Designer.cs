@@ -45,25 +45,25 @@
             // 
             // btnResetNotes
             // 
-            this.btnResetNotes.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResetNotes.Location = new System.Drawing.Point(470, 770);
-            this.btnResetNotes.Name = "btnResetNotes";
-            this.btnResetNotes.Size = new System.Drawing.Size(120, 40);
-            this.btnResetNotes.TabIndex = 2;
-            this.btnResetNotes.Text = "Reset Notes";
-            this.btnResetNotes.UseVisualStyleBackColor = true;
-            this.btnResetNotes.Click += new System.EventHandler(this.btnResetNotes_Click);
-            // 
+            //this.btnResetNotes.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.btnResetNotes.Location = new System.Drawing.Point(470, 770);
+            //this.btnResetNotes.Name = "btnResetNotes";
+            //this.btnResetNotes.Size = new System.Drawing.Size(120, 40);
+            //this.btnResetNotes.TabIndex = 2;
+            //this.btnResetNotes.Text = "Reset Notes";
+            //this.btnResetNotes.UseVisualStyleBackColor = true;
+            //this.btnResetNotes.Click += new System.EventHandler(this.btnResetNotes_Click);
+            //// 
             // btnPrint
             // 
-            this.btnPrint.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Location = new System.Drawing.Point(250, 770);
-            this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(150, 40);
-            this.btnPrint.TabIndex = 3;
-            this.btnPrint.Text = "Print Roll No Slip";
-            this.btnPrint.UseVisualStyleBackColor = true;
-            this.btnPrint.Click += new System.EventHandler(this.PrintButton_Click);
+            //this.btnPrint.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.btnPrint.Location = new System.Drawing.Point(250, 770);
+            //this.btnPrint.Name = "btnPrint";
+            //this.btnPrint.Size = new System.Drawing.Size(150, 40);
+            //this.btnPrint.TabIndex = 3;
+            //this.btnPrint.Text = "Print Roll No Slip";
+            //this.btnPrint.UseVisualStyleBackColor = true;
+            //this.btnPrint.Click += new System.EventHandler(this.PrintButton_Click);
             // 
             // Form1
             // 
