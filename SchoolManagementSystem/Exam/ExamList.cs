@@ -201,5 +201,22 @@ namespace SchoolManagementSystem.Exam
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var slipsViewer = new RollNoSlipsViewer())
+                {
+                    slipsViewer.ShowDialog();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error opening slips viewer: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
     }
 }
