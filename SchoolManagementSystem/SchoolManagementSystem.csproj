@@ -1119,6 +1119,12 @@
     <Compile Include="Principal\Appointments.Designer.cs">
       <DependentUpon>Appointments.cs</DependentUpon>
     </Compile>
+    <Compile Include="RollNoSlipsViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RollNoSlipsViewer.Designer.cs">
+      <DependentUpon>RollNoSlipsViewer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Roll_No_Slip\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

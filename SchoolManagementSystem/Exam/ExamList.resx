@@ -131,10 +131,10 @@
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAApdEVYdFRpdGxlAFJlbW92ZTtEZWxldGU7QmFycztS
-        aWJib247U3RhbmRhcmQ7Y1ZIMAAAAJNJREFUOE+lkVsOhSAQQ10YMboxE1c+UsOQUqv34ccJYWxPBKaI
-        eIUd/sJlUEqZK1gds+aHTQ1slWirlvs37nB5aYGEJVlOFicAO4UAilpGpvdU4CTMWQZPgjtJL4NPAv1t
-        wHfyKHDlpEvuBO7C9DinxAn0GfnMKrk+Y5NkkMsq2bkzCEANrK3gWDU/bP7BDr8npgNjXw87C67PqwAA
-        AABJRU5ErkJggg==
+        aWJib247U3RhbmRhcmQ7Y1ZIMAAAAItJREFUOE+lkUEKwCAMBH3YIvqxQl+ekmJEN7Gt9DAIMTskmkQk
+        /cEVdnEFABmAnhGZ+zl8AJB2crjfhQIApTUYo8TCRokEyhlIOKw94QQriQu/CVaSHv4i4LGV6WGfBFHY
+        SVYCDuvYvM4tiQT8jePOLPHf2CTWOD0YSc4xMwmapAZho3K/E+ziCrtcY18PO8LrCJcAAAAASUVORK5C
+        YII=
 </value>
   </data>
   <metadata name="btnEAdd.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -144,10 +144,9 @@
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAbdEVYdFRpdGxlAEFkZDtQbHVzO0JhcnM7UmliYm9u
-        O5UGMy8AAACYSURBVDhPpZPRDYAgDEQZxUH4ZjqZwmFYh8QBtI/YBEzBmH68RHvXwwKGGOObJGShCPWB
-        Z2pog79/2YRdOIVrAhoevEMAhUOwmizwthANINUyrqCnBTDX7LN1AUujJyGyOZYBVgGQEdlhS4SvgILI
-        MfVFbZrReysFd4B7BPcmuo8RXBcJ3FdZQ0idjQNoeFoz9AHKj985hhsZRV9cJDh5ygAAAABJRU5ErkJg
-        gg==
+        O5UGMy8AAACRSURBVDhPrZPbDYQwDAQphULmm+qgiiuGdpAogNOgixQsIh6+j5HAu16Ik3RAFxiACZiB
+        5YfP1tQO/vqlB0ZgBbYGanr0HgIsfE4aWujdQ0qAqdF0hT17gOtq/Xb5QKyLPYOiw4ninQCZFJ1wFO4G
+        zIpu01lTi9q7/CUgvYT0ENPbKKmDJOmjXEJeX6aaR9f5CxlFX1zzcMoXAAAAAElFTkSuQmCC
 </value>
   </data>
   <metadata name="labelControl9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
