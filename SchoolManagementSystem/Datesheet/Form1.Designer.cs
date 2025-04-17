@@ -46,6 +46,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -163,7 +164,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(98, 151);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(106, 23);
             this.button1.TabIndex = 13;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
@@ -173,7 +174,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(255, 151);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(109, 23);
             this.button2.TabIndex = 14;
             this.button2.Text = "Delete";
             this.button2.UseVisualStyleBackColor = true;
@@ -181,9 +182,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(571, 151);
+            this.button3.Location = new System.Drawing.Point(583, 151);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(108, 23);
             this.button3.TabIndex = 16;
             this.button3.Text = "Print";
             this.button3.UseVisualStyleBackColor = true;
@@ -193,7 +194,7 @@
             // 
             this.button4.Location = new System.Drawing.Point(424, 151);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(114, 23);
             this.button4.TabIndex = 15;
             this.button4.Text = "Save";
             this.button4.UseVisualStyleBackColor = true;
@@ -208,11 +209,22 @@
             this.dataGridView1.Size = new System.Drawing.Size(882, 350);
             this.dataGridView1.TabIndex = 17;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(755, 150);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(95, 23);
+            this.button5.TabIndex = 18;
+            this.button5.Text = "Datesheets";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(906, 585);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
@@ -259,5 +271,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button5;
     }
 }

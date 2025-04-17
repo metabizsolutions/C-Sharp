@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
@@ -7,22 +9,19 @@ namespace SchoolManagementSystem.Exam
     public partial class StudentDetailsDialog : Form
     {
         private readonly string connectionString = "server=localhost;database=tnsbay_school;uid=root;pwd=;";
+        private CheckedListBox chkListStudents;
+        private Label lblStudents;
+        private List<Student> students;
 
         // Public properties for accessing form values
-        public string SelectedName => cmbName.Text;
-        public string SelectedFatherName => cmbFatherName.Text;
-        public string SelectedRollNo => cmbRollNo.Text;
-        public string SelectedGroup => txtGroup.Text;
-        public string SelectedGender => cmbGender.Text;
         public string SelectedClass => cmbClass.Text;
         public string SelectedSection => cmbSection.Text;
         public string SelectedSession => cmbSession.Text;
 
-        public StudentDetails StudentDetails { get; private set; }
-
         public StudentDetailsDialog()
         {
             InitializeComponent();
+            InitializeCustomComponents();
 
             try
             {
@@ -31,10 +30,8 @@ namespace SchoolManagementSystem.Exam
                     throw new Exception("Database connection string is not configured");
                 }
 
-                LoadDefaultValues();
-                LoadStudentData();
                 LoadClassData();
-                LoadSectionData(); // Load sections from database
+                LoadSectionData(); // Initial load, may be empty until a class is selected
             }
             catch (Exception ex)
             {
@@ -45,20 +42,43 @@ namespace SchoolManagementSystem.Exam
             }
         }
 
-        private void LoadDefaultValues()
+        private void InitializeCustomComponents()
         {
-            try
+            // Add label for students
+            lblStudents = new Label
             {
-                // Initialize gender options
-                cmbGender.Items.Clear();
-                cmbGender.Items.AddRange(new string[] { "Male", "Female", "Other" });
-                cmbGender.SelectedIndex = 0;
-            }
-            catch (Exception ex)
+                AutoSize = true,
+                Location = new Point(20, 90),
+                Text = "Students",
+                Name = "lblStudents"
+            };
+            this.Controls.Add(lblStudents);
+
+            // Add CheckedListBox for students
+            chkListStudents = new CheckedListBox
             {
-                MessageBox.Show($"Error loading default values: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Location = new Point(20, 110),
+                Size = new Size(340, 140),
+                DisplayMember = "RollNo",
+                Name = "chkListStudents"
+            };
+            this.Controls.Add(chkListStudents);
+
+            // Adjust form size and button positions
+            this.Size = new Size(400, 340);
+            btnOK.Location = new Point(200, 260);
+            btnCancel.Location = new Point(280, 260);
+        }
+
+        // Returns the list of students selected in the CheckedListBox for roll number slip generation
+        public List<Student> GetSelectedStudents()
+        {
+            var selectedStudents = new List<Student>();
+            foreach (Student student in chkListStudents.CheckedItems)
+            {
+                selectedStudents.Add(student);
             }
+            return selectedStudents;
         }
 
         private void LoadSectionData()
@@ -68,10 +88,16 @@ namespace SchoolManagementSystem.Exam
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
-                    string query = "SELECT name FROM section"; // Assuming your table is named 'sections' with a 'section_name' column
+                    string query = @"
+                        SELECT DISTINCT sec.name
+                        FROM section sec
+                        JOIN student s ON s.section_id = sec.section_id
+                        JOIN classes c ON s.class_id = c.class_id
+                        WHERE c.name = @className";
 
                     using (MySqlCommand command = new MySqlCommand(query, connection))
                     {
+                        command.Parameters.AddWithValue("@className", string.IsNullOrWhiteSpace(cmbClass.Text) ? (object)DBNull.Value : cmbClass.Text);
                         using (MySqlDataReader reader = command.ExecuteReader())
                         {
                             cmbSection.BeginUpdate();
@@ -84,8 +110,15 @@ namespace SchoolManagementSystem.Exam
 
                             cmbSection.EndUpdate();
 
-                            // Set default selection if items exist
-                            if (cmbSection.Items.Count > 0) cmbSection.SelectedIndex = 0;
+                            if (cmbSection.Items.Count > 0)
+                            {
+                                cmbSection.SelectedIndex = 0;
+                                cmbSection.Enabled = true;
+                            }
+                            else
+                            {
+                                cmbSection.Enabled = false; // Disable if no sections are found
+                            }
                         }
                     }
                 }
@@ -94,48 +127,7 @@ namespace SchoolManagementSystem.Exam
             {
                 MessageBox.Show($"Error loading section data: {ex.Message}", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void LoadStudentData()
-        {
-            try
-            {
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
-                {
-                    connection.Open();
-                    string query = "SELECT name, father_name, student_id FROM student";
-
-                    using (MySqlCommand command = new MySqlCommand(query, connection))
-                    {
-                        using (MySqlDataReader reader = command.ExecuteReader())
-                        {
-                            cmbName.BeginUpdate();
-                            cmbFatherName.BeginUpdate();
-                            cmbRollNo.BeginUpdate();
-
-                            cmbName.Items.Clear();
-                            cmbFatherName.Items.Clear();
-                            cmbRollNo.Items.Clear();
-
-                            while (reader.Read())
-                            {
-                                cmbName.Items.Add(reader["name"].ToString());
-                                cmbFatherName.Items.Add(reader["father_name"].ToString());
-                                cmbRollNo.Items.Add(reader["student_id"].ToString());
-                            }
-
-                            cmbName.EndUpdate();
-                            cmbFatherName.EndUpdate();
-                            cmbRollNo.EndUpdate();
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error loading student data: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                cmbSection.Enabled = false;
             }
         }
 
@@ -167,7 +159,6 @@ namespace SchoolManagementSystem.Exam
                             cmbClass.EndUpdate();
                             cmbSession.EndUpdate();
 
-                            // Set default selections if items exist
                             if (cmbClass.Items.Count > 0) cmbClass.SelectedIndex = 0;
                             if (cmbSession.Items.Count > 0) cmbSession.SelectedIndex = 0;
                         }
@@ -181,66 +172,102 @@ namespace SchoolManagementSystem.Exam
             }
         }
 
+        private void LoadStudents()
+        {
+            if (string.IsNullOrWhiteSpace(cmbClass.Text) || string.IsNullOrWhiteSpace(cmbSection.Text) || string.IsNullOrWhiteSpace(cmbSession.Text))
+            {
+                chkListStudents.Items.Clear();
+                return;
+            }
+
+            try
+            {
+                students = new List<Student>();
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = @"
+                        SELECT s.roll, s.name, s.father_name, s.blood_group, s.sex
+                        FROM student s
+                        JOIN classes c ON s.class_id = c.class_id
+                        JOIN section sec ON s.section_id = sec.section_id
+                        WHERE c.name = @class
+                        AND sec.name = @section
+                        AND c.session = @session";
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@class", cmbClass.Text);
+                        command.Parameters.AddWithValue("@section", cmbSection.Text);
+                        command.Parameters.AddWithValue("@session", cmbSession.Text);
+
+                        using (MySqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                students.Add(new Student
+                                {
+                                    RollNo = reader["roll"].ToString(),
+                                    Name = reader["name"].ToString(),
+                                    FatherName = reader["father_name"].ToString(),
+                                    Group = reader["blood_group"].ToString(),
+                                    Gender = reader["sex"].ToString()
+                                });
+                            }
+                        }
+                    }
+                }
+
+                chkListStudents.Items.Clear();
+                chkListStudents.Items.AddRange(students.ToArray());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading student data: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         private void btnOK_Click(object sender, EventArgs e)
         {
             if (ValidateInputs())
             {
-                try
-                {
-                    StudentDetails = new StudentDetails
-                    {
-                        Name = cmbName.Text,
-                        FatherName = cmbFatherName.Text,
-                        RollNo = cmbRollNo.Text,
-                        Group = txtGroup.Text,
-                        Gender = cmbGender.Text,
-                        Class = cmbClass.Text,
-                        Section = cmbSection.Text,
-                        Session = cmbSession.Text
-                    };
-
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error saving student details: {ex.Message}", "Error",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                this.DialogResult = DialogResult.OK;
+                this.Close();
             }
         }
 
         private bool ValidateInputs()
         {
-            if (string.IsNullOrWhiteSpace(cmbName.Text))
+            if (string.IsNullOrWhiteSpace(cmbClass.Text))
             {
-                MessageBox.Show("Please select student name", "Validation Error",
+                MessageBox.Show("Please select a class", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                cmbName.Focus();
+                cmbClass.Focus();
                 return false;
             }
 
-            if (string.IsNullOrWhiteSpace(cmbFatherName.Text))
+            if (string.IsNullOrWhiteSpace(cmbSection.Text))
             {
-                MessageBox.Show("Please select father's name", "Validation Error",
+                MessageBox.Show("Please select a section", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                cmbFatherName.Focus();
+                cmbSection.Focus();
                 return false;
             }
 
-            if (string.IsNullOrWhiteSpace(cmbRollNo.Text))
+            if (string.IsNullOrWhiteSpace(cmbSession.Text))
             {
-                MessageBox.Show("Please select roll number", "Validation Error",
+                MessageBox.Show("Please select a session", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                cmbRollNo.Focus();
+                cmbSession.Focus();
                 return false;
             }
 
-            if (string.IsNullOrWhiteSpace(txtGroup.Text))
+            if (chkListStudents.CheckedItems.Count == 0)
             {
-                MessageBox.Show("Please enter group", "Validation Error",
+                MessageBox.Show("Please select at least one student", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtGroup.Focus();
+                chkListStudents.Focus();
                 return false;
             }
 
@@ -253,54 +280,30 @@ namespace SchoolManagementSystem.Exam
             this.Close();
         }
 
-        private void cmbName_SelectedIndexChanged(object sender, EventArgs e)
+        private void cmbClass_SelectedIndexChanged(object sender, EventArgs e)
         {
-            try
-            {
-                if (cmbName.SelectedIndex >= 0 &&
-                    cmbFatherName.Items.Count > cmbName.SelectedIndex &&
-                    cmbRollNo.Items.Count > cmbName.SelectedIndex)
-                {
-                    cmbFatherName.SelectedIndex = cmbName.SelectedIndex;
-                    cmbRollNo.SelectedIndex = cmbName.SelectedIndex;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error synchronizing selections: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            LoadSectionData(); // Reload sections based on selected class
+            LoadStudents(); // Reload students based on new class and section
         }
 
-        private void cmbRollNo_SelectedIndexChanged(object sender, EventArgs e)
+        private void cmbSection_SelectedIndexChanged(object sender, EventArgs e)
         {
-            try
-            {
-                if (cmbRollNo.SelectedIndex >= 0 &&
-                    cmbName.Items.Count > cmbRollNo.SelectedIndex &&
-                    cmbFatherName.Items.Count > cmbRollNo.SelectedIndex)
-                {
-                    cmbName.SelectedIndex = cmbRollNo.SelectedIndex;
-                    cmbFatherName.SelectedIndex = cmbRollNo.SelectedIndex;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error synchronizing selections: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            LoadStudents();
+        }
+
+        private void cmbSession_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadStudents();
         }
     }
 
-    public class StudentDetails
+    public class Student
     {
+        public string RollNo { get; set; }
         public string Name { get; set; }
         public string FatherName { get; set; }
-        public string RollNo { get; set; }
         public string Group { get; set; }
         public string Gender { get; set; }
-        public string Class { get; set; }
-        public string Section { get; set; }
-        public string Session { get; set; }
+        public override string ToString() => RollNo;
     }
 }

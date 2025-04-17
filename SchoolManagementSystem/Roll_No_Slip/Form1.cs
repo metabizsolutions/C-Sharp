@@ -1,60 +1,76 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Drawing.Printing;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using PdfSharp.Drawing;
+using PdfSharp.Pdf;
+using System.Diagnostics;
 using SchoolManagementSystem.Exam;
 
 namespace SchoolManagementSystem.Roll_No_Slip
 {
     public partial class Form1 : Form
     {
-        private StudentDetails studentDetails;
-        private List<ExamSubject> examSubjects;
+        private List<StudentDetails> studentDetailsList;
+        private Dictionary<StudentDetails, List<ExamSubject>> studentExamSubjects;
+        private readonly string connectionString = "server=localhost;database=tnsbay_school;uid=root;pwd=;";
 
         public Form1()
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
-            this.StartPosition = FormStartPosition.CenterScreen;
-            this.BackColor = Color.White;
-            this.Text = "Roll No Slip Generator";
+            studentDetailsList = new List<StudentDetails>();
+            studentExamSubjects = new Dictionary<StudentDetails, List<ExamSubject>>();
         }
 
-        public void SetStudentDetails(
-            string name, string fatherName, string rollNo,
-            string group, string gender, string className,
-            string section, string session)
+        public void SetStudentDetails(List<Student> students, string className, string section, string session)
         {
-            studentDetails = new StudentDetails
+            studentDetailsList.Clear();
+            studentExamSubjects.Clear();
+
+            // Process each selected student
+            foreach (var student in students)
             {
-                Name = name,
-                FatherName = fatherName,
-                RollNo = rollNo,
-                Group = group,
-                Gender = gender,
-                Class = className,
-                Section = section,
-                Session = session
-            };
-            if (!DoesSectionExistInDatesheet(className, section))
-            {
-                MessageBox.Show($"Error: No exam datesheet found for class {className} section {section}",
-                               "Invalid Section", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                var studentDetails = new StudentDetails
+                {
+                    Name = student.Name,
+                    FatherName = student.FatherName,
+                    RollNo = student.RollNo,
+                    Group = student.Group,
+                    Gender = student.Gender,
+                    Class = className,
+                    Section = section,
+                    Session = session
+                };
+
+                if (!DoesSectionExistInDatesheet(className, section))
+                {
+                    MessageBox.Show($"Error: No exam datesheet found for class {className} section {section}",
+                                   "Invalid Section", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Fetch subjects for this student
+                var examSubjects = FetchExamSubjectsFromDatabase(className, section);
+                if (examSubjects == null || examSubjects.Count == 0)
+                {
+                    MessageBox.Show($"Error: No exam subjects found for {student.Name} (Roll No: {student.RollNo})",
+                                   "No Subjects", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                studentDetailsList.Add(studentDetails);
+                studentExamSubjects.Add(studentDetails, examSubjects);
             }
-            // Automatically fetch subjects when student details are set
-            examSubjects = FetchExamSubjectsFromDatabase(className, section);
-            if (examSubjects != null && examSubjects.Count > 0)
+
+            if (studentDetailsList.Count > 0)
             {
-                GenerateRollNoSlip();
+                CreatePdf();
             }
         }
+
         private bool DoesSectionExistInDatesheet(string className, string section)
         {
-            string connectionString = "server=localhost;database=tnsbay_school;uid=root;pwd=;";
-
             try
             {
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -79,161 +95,143 @@ namespace SchoolManagementSystem.Roll_No_Slip
                 return false;
             }
         }
-        public void SetExamSubjects(List<ExamSubject> subjects)
+
+        private void CreatePdf()
         {
-            examSubjects = subjects ?? new List<ExamSubject>();
-            GenerateRollNoSlip();
-        }
-
-        public void GenerateRollNoSlip()
-        {
-            mainContainer.SuspendLayout();
-            mainContainer.Controls.Clear();
-
-            int padding = 20;
-            int contentWidth = Math.Max(600, this.ClientSize.Width - 2 * padding);
-            int currentY = padding;
-
-            // Header Panel
-            Panel headerPanel = new Panel
+            try
             {
-                BackColor = Color.LightBlue,
-                Size = new Size(contentWidth, 120),
-                Location = new Point(padding, currentY)
-            };
-            mainContainer.Controls.Add(headerPanel);
-            currentY += headerPanel.Height + padding;
+                using (PdfDocument document = new PdfDocument())
+                {
+                    foreach (var studentDetails in studentDetailsList)
+                    {
+                        var examSubjects = studentExamSubjects[studentDetails];
+                        PdfPage page = document.AddPage();
+                        page.Orientation = PdfSharp.PageOrientation.Landscape;
+                        page.Width = PdfSharp.Drawing.XUnit.FromPoint(842); // A4 landscape width
+                        page.Height = PdfSharp.Drawing.XUnit.FromPoint(595); // A4 landscape height
 
-            // School Information (centered)
-            AddLabel(headerPanel, "Sunrise Model Public School & College",
-                (headerPanel.Width - 300) / 2, 20, 14, true);
-            AddLabel(headerPanel, "KHUZUAB (B  ALOGHEI5740)",
-                (headerPanel.Width - 200) / 2, 50, 10);
-            AddLabel(headerPanel, "Phone: 084612999 Mob: 03337881630/03337972999",
-                (headerPanel.Width - 300) / 2, 80, 9);
+                        using (XGraphics gfx = XGraphics.FromPdfPage(page))
+                        {
+                            // Cast System.Drawing.FontStyle to PdfSharp.Drawing.XFontStyle
+                            XFont headerFont = new XFont("Arial", 14, (PdfSharp.Drawing.XFontStyle)System.Drawing.FontStyle.Bold);
+                            XFont titleFont = new XFont("Arial", 12, (PdfSharp.Drawing.XFontStyle)System.Drawing.FontStyle.Bold);
+                            XFont regularFont = new XFont("Arial", 10, (PdfSharp.Drawing.XFontStyle)System.Drawing.FontStyle.Regular);
+                            XFont boldFont = new XFont("Arial", 10, (PdfSharp.Drawing.XFontStyle)System.Drawing.FontStyle.Bold);
 
-            // Title
-            AddLabel(mainContainer, $"DateSheet / Roll No.Slip of session {studentDetails.Session}",
-                (contentWidth - 300) / 2, currentY, 12, true);
-            currentY += 30;
+                            int padding = 20;
+                            int currentY = padding;
 
-            // Student Info Panel
-            Panel infoPanel = new Panel
-            {
-                BorderStyle = BorderStyle.FixedSingle,
-                Size = new Size(contentWidth, 180),
-                Location = new Point(padding, currentY)
-            };
-            mainContainer.Controls.Add(infoPanel);
-            currentY += infoPanel.Height + padding;
+                            // Header
+                            gfx.DrawRectangle(XBrushes.LightBlue, padding, currentY, page.Width.Point - 2 * padding, 80);
+                            gfx.DrawString("Sunrise Model Public School & College", headerFont, XBrushes.Black,
+                                new XRect(padding, currentY + 10, page.Width.Point, 0), XStringFormats.TopCenter);
+                            gfx.DrawString("KHUZUAB (B ALOGHEI5740)", regularFont, XBrushes.Black,
+                                new XRect(padding, currentY + 40, page.Width.Point, 0), XStringFormats.TopCenter);
+                            gfx.DrawString("Phone: 084612999 Mob: 03337881630/03337972999", regularFont, XBrushes.Black,
+                                new XRect(padding, currentY + 60, page.Width.Point, 0), XStringFormats.TopCenter);
+                            currentY += 100;
 
-            // Student Information
-            string[] labels = { "Name:", "Father's Name:", "Roll No.:", "Group:", "Gender:", "Class:", "Section:", "Session:" };
-            string[] values = {
-                studentDetails.Name,
-                studentDetails.FatherName,
-                studentDetails.RollNo,
-                studentDetails.Group,
-                studentDetails.Gender,
-                studentDetails.Class,
-                studentDetails.Section,
-                studentDetails.Session
-            };
+                            // Title
+                            gfx.DrawString($"DateSheet / Roll No.Slip of session {studentDetails.Session}", titleFont, XBrushes.Black,
+                                new XRect(padding, currentY, page.Width.Point, 0), XStringFormats.TopCenter);
+                            currentY += 30;
 
-            for (int i = 0; i < labels.Length; i++)
-            {
-                AddLabelPair(infoPanel, labels[i], values[i], 20, 20 + (i * 20));
+                            // Student Info
+                            gfx.DrawRectangle(new XPen(XColors.Black), padding, currentY, page.Width.Point - 2 * padding, 140);
+                            string[] labels = { "Name:", "Father's Name:", "Roll No.:", "Group:", "Gender:", "Class:", "Section:", "Session:" };
+                            string[] values = {
+                                studentDetails.Name,
+                                studentDetails.FatherName,
+                                studentDetails.RollNo,
+                                studentDetails.Group,
+                                studentDetails.Gender,
+                                studentDetails.Class,
+                                studentDetails.Section,
+                                studentDetails.Session
+                            };
+
+                            for (int i = 0; i < labels.Length; i++)
+                            {
+                                gfx.DrawString(labels[i], boldFont, XBrushes.Black, padding + 10, currentY + 10 + (i * 20));
+                                gfx.DrawString(values[i], regularFont, XBrushes.Black, padding + 140, currentY + 10 + (i * 20));
+                            }
+                            currentY += 150;
+
+                            // Exam Schedule
+                            gfx.DrawString("Exam Schedule", titleFont, XBrushes.Black, padding, currentY);
+                            currentY += 20;
+
+                            // Table header
+                            int tableWidth = (int)(page.Width.Point - 2 * padding);
+                            int[] columnWidths = { 50, 100, 200, 100, 100 };
+                            string[] headers = { "Sr#", "Date", "Subject", "Start Time", "End Time" };
+                            gfx.DrawRectangle(new XPen(XColors.Black), XBrushes.LightGray, padding, currentY, tableWidth, 20);
+                            int x = padding;
+                            for (int i = 0; i < headers.Length; i++)
+                            {
+                                gfx.DrawString(headers[i], boldFont, XBrushes.Black, x + 5, currentY + 5);
+                                x += columnWidths[i];
+                            }
+                            currentY += 20;
+
+                            // Table rows
+                            for (int i = 0; i < examSubjects.Count; i++)
+                            {
+                                var subject = examSubjects[i];
+                                gfx.DrawRectangle(new XPen(XColors.Black), padding, currentY, tableWidth, 20);
+                                x = padding;
+                                string[] row = {
+                                    (i + 1).ToString(),
+                                    subject.Date.ToString("dd/MM/yyyy"),
+                                    subject.SubjectName,
+                                    subject.StartTime.ToString("hh:mm tt"),
+                                    subject.EndTime.ToString("hh:mm tt")
+                                };
+                                for (int j = 0; j < row.Length; j++)
+                                {
+                                    gfx.DrawString(row[j], regularFont, XBrushes.Black, x + 5, currentY + 5);
+                                    x += columnWidths[j];
+                                }
+                                currentY += 20;
+                            }
+
+                            // Notes
+                            currentY += 10;
+                            gfx.DrawString("Notes:", boldFont, XBrushes.Black, padding, currentY);
+                            currentY += 20;
+                            string notes = GetNotesText();
+                            string[] noteLines = notes.Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
+                            foreach (var line in noteLines)
+                            {
+                                gfx.DrawString(line, regularFont, XBrushes.Black, padding, currentY);
+                                currentY += 15;
+                            }
+
+                            // Signature and Date
+                            currentY += 20;
+                            gfx.DrawString("Principal's Signature", boldFont, XBrushes.Black, padding, currentY);
+                            gfx.DrawString($"Issued Date & time: {DateTime.Now:yyyy/MM/dd HH:mm:ss}", regularFont, XBrushes.Black,
+                                page.Width.Point - padding - 200, currentY);
+                        }
+                    }
+
+                    // Save PDF to Desktop
+                    string pdfPath = System.IO.Path.Combine(
+                        Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
+                        $"RollNoSlips_{DateTime.Now:yyyyMMdd_HHmmss}.pdf");
+                    document.Save(pdfPath);
+                    MessageBox.Show($"PDF generated successfully at: {pdfPath}", "Success",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // Optionally open the PDF
+                    Process.Start(new ProcessStartInfo(pdfPath) { UseShellExecute = true });
+                }
             }
-
-            // Exam Schedule
-            AddLabel(mainContainer, "Exam Schedule", padding, currentY, 12, true);
-            currentY += 30;
-
-            // Dynamic grid height
-            int gridHeight = Math.Min(400, Math.Max(100, examSubjects.Count * 30));
-            DataGridView grid = CreateExamScheduleGrid(padding, currentY, contentWidth, gridHeight);
-            mainContainer.Controls.Add(grid);
-            currentY += grid.Height + padding;
-
-            // Notes Section
-            AddLabel(mainContainer, "Notes:", padding, currentY, 10, true);
-            currentY += 20;
-
-            rtbNotes.Location = new Point(padding, currentY);
-            rtbNotes.Size = new Size(contentWidth, 120);
-            rtbNotes.Text = GetNotesText();
-            mainContainer.Controls.Add(rtbNotes);
-            currentY += rtbNotes.Height + padding;
-
-            // Signature and Date
-            AddLabel(mainContainer, "Principal's Signature", padding, currentY, 10, true);
-            AddLabel(mainContainer, $"Issued Date & time: {DateTime.Now:yyyy/MM/d  d HH:mm:ss}",
-                contentWidth - 250, currentY, 9);
-            currentY += 30;
-
-            // Action Buttons (centered at bottom)
-            btnPrint.Location = new Point(
-                (contentWidth - btnPrint.Width - btnResetNotes.Width - 20) / 2,
-                currentY);
-            btnResetNotes.Location = new Point(
-                btnPrint.Right + 20,
-                currentY);
-
-            mainContainer.Controls.Add(btnPrint);
-            mainContainer.Controls.Add(btnResetNotes);
-
-            mainContainer.ResumeLayout(true);
-        }
-
-        private DataGridView CreateExamScheduleGrid(int x, int y, int width, int height)
-        {
-            DataGridView grid = new DataGridView
+            catch (Exception ex)
             {
-                Size = new Size(width, height),
-                Location = new Point(x, y),
-                AllowUserToAddRows = false,
-                RowHeadersVisible = false,
-                ReadOnly = true,
-                BorderStyle = BorderStyle.FixedSingle,
-                AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
-            };
-
-            grid.Columns.Add("Sr#", "Sr#");
-            grid.Columns.Add("Date", "Date");
-            grid.Columns.Add("Subject", "Subject");
-            grid.Columns.Add("Start Time", "Start Time");
-            grid.Columns.Add("End Time", "End Time");
-
-            for (int i = 0; i < examSubjects.Count; i++)
-            {
-                var subject = examSubjects[i];
-                grid.Rows.Add(
-                    (i + 1).ToString(),
-                    subject.Date.ToString("dd/MM/yyyy"),
-                    subject.SubjectName,
-                    subject.StartTime.ToString("hh  :mm tt"),
-                    subject.EndTime.ToString("hh  :mm tt")
-                );
+                MessageBox.Show($"Error generating PDF: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            return grid;
-        }
-
-        private void AddLabel(Control parent, string text, int x, int y, float fontSize = 10, bool bold = false)
-        {
-            Label label = new Label
-            {
-                Text = text,
-                Font = new Font("Arial", fontSize, bold ? FontStyle.Bold : FontStyle.Regular),
-                AutoSize = true,
-                Location = new Point(x, y)
-            };
-            parent.Controls.Add(label);
-        }
-
-        private void AddLabelPair(Control parent, string labelText, string valueText, int x, int y)
-        {
-            AddLabel(parent, labelText, x, y, 10, true);
-            AddLabel(parent, valueText, x + 130, y, 10);
         }
 
         private string GetNotesText()
@@ -247,8 +245,6 @@ namespace SchoolManagementSystem.Roll_No_Slip
         private List<ExamSubject> FetchExamSubjectsFromDatabase(string className, string section)
         {
             List<ExamSubject> subjects = new List<ExamSubject>();
-            string connectionString = "server=localhost;database=tnsbay_school;uid=root;pwd=;";
-
             try
             {
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -300,71 +296,26 @@ namespace SchoolManagementSystem.Roll_No_Slip
 
             return subjects;
         }
+    }
 
-        private void btnResetNotes_Click(object sender, EventArgs e)
-        {
-            rtbNotes.Text = GetNotesText();
-        }
+    public class StudentDetails
+    {
+        public string Name { get; set; }
+        public string FatherName { get; set; }
+        public string RollNo { get; set; }
+        public string Group { get; set; }
+        public string Gender { get; set; }
+        public string Class { get; set; }
+        public string Section { get; set; }
+        public string Session { get; set; }
+    }
 
-        private void PrintButton_Click(object sender, EventArgs e)
-        {
-            // Store original button visibility
-            bool printButtonVisible = btnPrint.Visible;
-            bool resetButtonVisible = btnResetNotes.Visible;
-
-            try
-            {
-                // Hide buttons before printing
-                btnPrint.Visible = false;
-                btnResetNotes.Visible = false;
-
-                // Force the form to update the layout
-                this.Update();
-                Application.DoEvents();
-
-                using (PrintDocument pd = new PrintDocument())
-                {
-                    // Set landscape orientation
-                    pd.DefaultPageSettings.Landscape = true;
-
-                    // Calculate the scale factor to fit the content
-                    float scaleFactor = 0.8f; // Adjust this value as needed
-
-                    pd.PrintPage += (s, ev) =>
-                    {
-                        // Create a bitmap of just the mainContainer (excluding buttons)
-                        Bitmap bitmap = new Bitmap(mainContainer.Width, mainContainer.Height);
-                        mainContainer.DrawToBitmap(bitmap, new Rectangle(0, 0, mainContainer.Width, mainContainer.Height));
-
-                        // Calculate scaled dimensions to fit the page
-                        float scaledWidth = bitmap.Width * scaleFactor;
-                        float scaledHeight = bitmap.Height * scaleFactor;
-
-                        // Center the image on the page
-                        float x = (ev.PageBounds.Width - scaledWidth) / 2;
-                        float y = (ev.PageBounds.Height - scaledHeight) / 2;
-
-                        // Draw the bitmap with scaling
-                        ev.Graphics.DrawImage(bitmap, x, y, scaledWidth, scaledHeight);
-                        bitmap.Dispose();
-                    };
-
-                    using (PrintDialog printDialog = new PrintDialog { Document = pd })
-                    {
-                        if (printDialog.ShowDialog() == DialogResult.OK)
-                        {
-                            pd.Print();
-                        }
-                    }
-                }
-            }
-            finally
-            {
-                // Restore button visibility
-                btnPrint.Visible = printButtonVisible;
-                btnResetNotes.Visible = resetButtonVisible;
-            }
-        }
+    public class ExamSubject
+    {
+        public string SubjectName { get; set; }
+        public DateTime Date { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
     }
 
     public class ExamTimeDialog : Form

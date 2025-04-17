@@ -32,11 +32,17 @@
             this.gridManageMarks = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.txtExamTime = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
+            this.checkedListBoxSubjects = new System.Windows.Forms.CheckedListBox();
+            this.simpleButtonToggleMode = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControlSubject = new DevExpress.XtraEditors.LabelControl();
             this.gridLookUpEdit_teacher = new DevExpress.XtraEditors.GridLookUpEdit();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.btnmanag_byteacher = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.btn_download_excel = new DevExpress.XtraEditors.SimpleButton();
             this.btn_upload_excel = new DevExpress.XtraEditors.SimpleButton();
             this.btnMMPrintP = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
@@ -52,13 +58,12 @@
             this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.txtSubject = new DevExpress.XtraEditors.SearchLookUpEdit();
             this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.btn_download_excel = new DevExpress.XtraEditors.SimpleButton();
             this.exportto_excel_grid = new DevExpress.XtraGrid.GridControl();
             this.gridView6 = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.gridManageMarks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtExamTime.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridLookUpEdit_teacher.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtExam.Properties)).BeginInit();
@@ -97,6 +102,11 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Controls.Add(this.txtExamTime);
+            this.groupControl1.Controls.Add(this.labelControl10);
+            this.groupControl1.Controls.Add(this.checkedListBoxSubjects);
+            this.groupControl1.Controls.Add(this.simpleButtonToggleMode);
+            this.groupControl1.Controls.Add(this.labelControlSubject);
             this.groupControl1.Controls.Add(this.gridLookUpEdit_teacher);
             this.groupControl1.Controls.Add(this.labelControl3);
             this.groupControl1.Controls.Add(this.btnmanag_byteacher);
@@ -120,11 +130,55 @@
             this.groupControl1.TabIndex = 6;
             this.groupControl1.Text = "Add Manage Marks";
             // 
+            // txtExamTime
+            // 
+            this.txtExamTime.Location = new System.Drawing.Point(75, 80);
+            this.txtExamTime.Name = "txtExamTime";
+            this.txtExamTime.Size = new System.Drawing.Size(150, 20);
+            this.txtExamTime.TabIndex = 78;
+            // 
+            // labelControl10
+            // 
+            this.labelControl10.Location = new System.Drawing.Point(20, 83);
+            this.labelControl10.Name = "labelControl10";
+            this.labelControl10.Size = new System.Drawing.Size(52, 13);
+            this.labelControl10.TabIndex = 77;
+            this.labelControl10.Text = "Exam Time";
+            // 
+            // checkedListBoxSubjects
+            // 
+            this.checkedListBoxSubjects.FormattingEnabled = true;
+            this.checkedListBoxSubjects.Location = new System.Drawing.Point(473, 57);
+            this.checkedListBoxSubjects.Name = "checkedListBoxSubjects";
+            this.checkedListBoxSubjects.Size = new System.Drawing.Size(150, 34);
+            this.checkedListBoxSubjects.TabIndex = 75;
+            this.checkedListBoxSubjects.Visible = false;
+            // 
+            // simpleButtonToggleMode
+            // 
+            this.simpleButtonToggleMode.Location = new System.Drawing.Point(1040, 25);
+            this.simpleButtonToggleMode.Name = "simpleButtonToggleMode";
+            this.simpleButtonToggleMode.Size = new System.Drawing.Size(120, 23);
+            this.simpleButtonToggleMode.TabIndex = 76;
+            this.simpleButtonToggleMode.Text = "Switch to Multi-Subject Mode";
+            this.simpleButtonToggleMode.Click += new System.EventHandler(this.simpleButtonToggleMode_Click);
+            // 
+            // labelControlSubject
+            // 
+            this.labelControlSubject.Location = new System.Drawing.Point(473, 38);
+            this.labelControlSubject.Name = "labelControlSubject";
+            this.labelControlSubject.Size = new System.Drawing.Size(69, 13);
+            this.labelControlSubject.TabIndex = 77;
+            this.labelControlSubject.Text = "Select Subject";
+            // 
             // gridLookUpEdit_teacher
             // 
             this.gridLookUpEdit_teacher.Location = new System.Drawing.Point(910, 56);
             this.gridLookUpEdit_teacher.Margin = new System.Windows.Forms.Padding(3, 8, 3, 3);
             this.gridLookUpEdit_teacher.Name = "gridLookUpEdit_teacher";
+            // 
+            // 
+            // 
             this.gridLookUpEdit_teacher.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.gridLookUpEdit_teacher.Properties.PopupView = this.gridView2;
@@ -167,6 +221,15 @@
             this.labelControl2.Text = "Absent (A)=-1          Unfair Means Conducted (UMC)=-2          Cancellation of E" +
     "xam(CA)=-3";
             this.labelControl2.Visible = false;
+            // 
+            // btn_download_excel
+            // 
+            this.btn_download_excel.Location = new System.Drawing.Point(802, 27);
+            this.btn_download_excel.Name = "btn_download_excel";
+            this.btn_download_excel.Size = new System.Drawing.Size(102, 23);
+            this.btn_download_excel.TabIndex = 62;
+            this.btn_download_excel.Text = "Download Excel";
+            this.btn_download_excel.Click += new System.EventHandler(this.btn_download_excel_Click);
             // 
             // btn_upload_excel
             // 
@@ -234,6 +297,9 @@
             // 
             this.txtExam.Location = new System.Drawing.Point(5, 57);
             this.txtExam.Name = "txtExam";
+            // 
+            // 
+            // 
             this.txtExam.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtExam.Properties.NullText = "";
@@ -253,6 +319,9 @@
             // 
             this.txtClass.Location = new System.Drawing.Point(161, 57);
             this.txtClass.Name = "txtClass";
+            // 
+            // 
+            // 
             this.txtClass.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtClass.Properties.DisplayFormat.FormatString = "d";
@@ -277,6 +346,9 @@
             // 
             this.txtSection.Location = new System.Drawing.Point(317, 57);
             this.txtSection.Name = "txtSection";
+            // 
+            // 
+            // 
             this.txtSection.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtSection.Properties.DisplayFormat.FormatString = "d";
@@ -301,6 +373,9 @@
             // 
             this.txtSubject.Location = new System.Drawing.Point(473, 57);
             this.txtSubject.Name = "txtSubject";
+            // 
+            // 
+            // 
             this.txtSubject.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtSubject.Properties.NullText = "";
@@ -316,22 +391,11 @@
             this.gridView5.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView5.OptionsView.ShowGroupPanel = false;
             // 
-            // btn_download_excel
-            // 
-            this.btn_download_excel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.btn_download_excel.Location = new System.Drawing.Point(802, 27);
-            this.btn_download_excel.Name = "btn_download_excel";
-            this.btn_download_excel.Size = new System.Drawing.Size(102, 23);
-            this.btn_download_excel.TabIndex = 62;
-            this.btn_download_excel.Text = "Download Excel";
-            this.btn_download_excel.Click += new System.EventHandler(this.btn_download_excel_Click);
-            // 
             // exportto_excel_grid
             // 
             this.exportto_excel_grid.Location = new System.Drawing.Point(413, 184);
             this.exportto_excel_grid.MainView = this.gridView6;
             this.exportto_excel_grid.Name = "exportto_excel_grid";
-            this.exportto_excel_grid.Size = new System.Drawing.Size(400, 200);
             this.exportto_excel_grid.TabIndex = 8;
             this.exportto_excel_grid.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView6});
@@ -355,8 +419,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridManageMarks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtExamTime.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridLookUpEdit_teacher.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtExam.Properties)).EndInit();
@@ -401,5 +464,10 @@
         private DevExpress.XtraEditors.SimpleButton btn_download_excel;
         private DevExpress.XtraGrid.GridControl exportto_excel_grid;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView6;
+        private DevExpress.XtraEditors.TextEdit txtExamTime;
+        private DevExpress.XtraEditors.LabelControl labelControl10;
+        private System.Windows.Forms.CheckedListBox checkedListBoxSubjects;
+        private DevExpress.XtraEditors.SimpleButton simpleButtonToggleMode;
+        private DevExpress.XtraEditors.LabelControl labelControlSubject;
     }
 }
