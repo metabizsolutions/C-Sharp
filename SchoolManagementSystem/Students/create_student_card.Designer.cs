@@ -278,7 +278,6 @@ namespace SchoolManagementSystem.Students
             this.printPreviewRibbonPageGroup8 = new DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup();
             this.D_V_R_Controller = new DevExpress.XtraPrinting.Preview.DocumentViewerRibbonController(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -418,6 +417,9 @@ namespace SchoolManagementSystem.Students
             this.std_card_height.EditValue = "";
             this.std_card_height.Location = new System.Drawing.Point(76, 15);
             this.std_card_height.Name = "std_card_height";
+            // 
+            // 
+            // 
             this.std_card_height.Properties.Mask.EditMask = "f0";
             this.std_card_height.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.std_card_height.Properties.NullText = "[EditValue is null]";
@@ -430,6 +432,9 @@ namespace SchoolManagementSystem.Students
             this.std_card_width.EditValue = "";
             this.std_card_width.Location = new System.Drawing.Point(76, 39);
             this.std_card_width.Name = "std_card_width";
+            // 
+            // 
+            // 
             this.std_card_width.Properties.Mask.EditMask = "f0";
             this.std_card_width.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.std_card_width.Properties.NullText = "[EditValue is null]";
@@ -464,6 +469,9 @@ namespace SchoolManagementSystem.Students
             this.card_body_textcolor.EditValue = System.Drawing.Color.Empty;
             this.card_body_textcolor.Location = new System.Drawing.Point(87, 40);
             this.card_body_textcolor.Name = "card_body_textcolor";
+            // 
+            // 
+            // 
             this.card_body_textcolor.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.card_body_textcolor.Properties.NullText = "[EditValue is null]";
@@ -485,6 +493,9 @@ namespace SchoolManagementSystem.Students
             this.card_body_backcolor.EditValue = System.Drawing.Color.Empty;
             this.card_body_backcolor.Location = new System.Drawing.Point(87, 16);
             this.card_body_backcolor.Name = "card_body_backcolor";
+            // 
+            // 
+            // 
             this.card_body_backcolor.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.card_body_backcolor.Properties.NullText = "[EditValue is null]";
@@ -519,6 +530,9 @@ namespace SchoolManagementSystem.Students
             this.card_HF_textcolor.EditValue = System.Drawing.Color.Empty;
             this.card_HF_textcolor.Location = new System.Drawing.Point(90, 39);
             this.card_HF_textcolor.Name = "card_HF_textcolor";
+            // 
+            // 
+            // 
             this.card_HF_textcolor.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.card_HF_textcolor.Properties.NullText = "[EditValue is null]";
@@ -540,6 +554,9 @@ namespace SchoolManagementSystem.Students
             this.card_HF_backcolor.EditValue = System.Drawing.Color.Empty;
             this.card_HF_backcolor.Location = new System.Drawing.Point(90, 15);
             this.card_HF_backcolor.Name = "card_HF_backcolor";
+            // 
+            // 
+            // 
             this.card_HF_backcolor.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.card_HF_backcolor.Properties.NullText = "[EditValue is null]";
@@ -579,6 +596,9 @@ namespace SchoolManagementSystem.Students
             // 
             this.ddl_sections.Location = new System.Drawing.Point(55, 104);
             this.ddl_sections.Name = "ddl_sections";
+            // 
+            // 
+            // 
             this.ddl_sections.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.ddl_sections.Properties.NullText = "[EditValue is null]";
@@ -589,6 +609,9 @@ namespace SchoolManagementSystem.Students
             // 
             this.ddl_classes.Location = new System.Drawing.Point(55, 77);
             this.ddl_classes.Name = "ddl_classes";
+            // 
+            // 
+            // 
             this.ddl_classes.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.ddl_classes.Properties.NullText = "[EditValue is null]";
@@ -616,6 +639,9 @@ namespace SchoolManagementSystem.Students
             // 
             this.ribbonControl1.AutoHideEmptyItems = true;
             this.ribbonControl1.ColorScheme = DevExpress.XtraBars.Ribbon.RibbonControlColorScheme.Blue;
+            // 
+            // 
+            // 
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
@@ -1602,8 +1628,6 @@ namespace SchoolManagementSystem.Students
             // 
             this.printPreviewRibbonPageGroup1.AllowTextClipping = false;
             this.printPreviewRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.printPreviewRibbonPageGroup1.ItemLinks.Add(this.printPreviewBarItem48);
-            this.printPreviewRibbonPageGroup1.ItemLinks.Add(this.printPreviewBarItem49);
             this.printPreviewRibbonPageGroup1.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Document;
             this.printPreviewRibbonPageGroup1.Name = "printPreviewRibbonPageGroup1";
             this.printPreviewRibbonPageGroup1.Text = "Document";
@@ -1612,10 +1636,6 @@ namespace SchoolManagementSystem.Students
             // 
             this.printPreviewRibbonPageGroup2.AllowTextClipping = false;
             this.printPreviewRibbonPageGroup2.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.printPreviewRibbonPageGroup2.ItemLinks.Add(this.printPreviewBarItem7);
-            this.printPreviewRibbonPageGroup2.ItemLinks.Add(this.printPreviewBarItem8);
-            this.printPreviewRibbonPageGroup2.ItemLinks.Add(this.printPreviewBarItem6);
-            this.printPreviewRibbonPageGroup2.ItemLinks.Add(this.printPreviewBarItem3);
             this.printPreviewRibbonPageGroup2.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Print;
             this.printPreviewRibbonPageGroup2.Name = "printPreviewRibbonPageGroup2";
             this.printPreviewRibbonPageGroup2.Text = "Print";
@@ -1623,11 +1643,6 @@ namespace SchoolManagementSystem.Students
             // printPreviewRibbonPageGroup3
             // 
             this.printPreviewRibbonPageGroup3.AllowTextClipping = false;
-            this.printPreviewRibbonPageGroup3.ItemLinks.Add(this.printPreviewBarItem10);
-            this.printPreviewRibbonPageGroup3.ItemLinks.Add(this.printPreviewBarItem11);
-            this.printPreviewRibbonPageGroup3.ItemLinks.Add(this.printPreviewBarItem30);
-            this.printPreviewRibbonPageGroup3.ItemLinks.Add(this.printPreviewBarItem28);
-            this.printPreviewRibbonPageGroup3.ItemLinks.Add(this.printPreviewBarItem29);
             this.printPreviewRibbonPageGroup3.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.PageSetup;
             this.printPreviewRibbonPageGroup3.Name = "printPreviewRibbonPageGroup3";
             superToolTip50.FixedTooltipWidth = true;
@@ -1644,14 +1659,6 @@ namespace SchoolManagementSystem.Students
             // 
             this.printPreviewRibbonPageGroup4.AllowTextClipping = false;
             this.printPreviewRibbonPageGroup4.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.printPreviewRibbonPageGroup4.ItemLinks.Add(this.printPreviewBarItem4);
-            this.printPreviewRibbonPageGroup4.ItemLinks.Add(this.printPreviewBarItem5);
-            this.printPreviewRibbonPageGroup4.ItemLinks.Add(this.printPreviewBarItem2);
-            this.printPreviewRibbonPageGroup4.ItemLinks.Add(this.printPreviewBarItem1);
-            this.printPreviewRibbonPageGroup4.ItemLinks.Add(this.printPreviewBarItem18, true);
-            this.printPreviewRibbonPageGroup4.ItemLinks.Add(this.printPreviewBarItem19);
-            this.printPreviewRibbonPageGroup4.ItemLinks.Add(this.printPreviewBarItem20);
-            this.printPreviewRibbonPageGroup4.ItemLinks.Add(this.printPreviewBarItem21);
             this.printPreviewRibbonPageGroup4.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Navigation;
             this.printPreviewRibbonPageGroup4.Name = "printPreviewRibbonPageGroup4";
             this.printPreviewRibbonPageGroup4.Text = "Navigation";
@@ -1660,13 +1667,6 @@ namespace SchoolManagementSystem.Students
             // 
             this.printPreviewRibbonPageGroup5.AllowTextClipping = false;
             this.printPreviewRibbonPageGroup5.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.printPreviewRibbonPageGroup5.ItemLinks.Add(this.printPreviewBarItem12);
-            this.printPreviewRibbonPageGroup5.ItemLinks.Add(this.printPreviewBarItem13);
-            this.printPreviewRibbonPageGroup5.ItemLinks.Add(this.printPreviewBarItem14);
-            this.printPreviewRibbonPageGroup5.ItemLinks.Add(this.printPreviewBarItem22);
-            this.printPreviewRibbonPageGroup5.ItemLinks.Add(this.printPreviewBarItem15);
-            this.printPreviewRibbonPageGroup5.ItemLinks.Add(this.printPreviewBarItem17);
-            this.printPreviewRibbonPageGroup5.ItemLinks.Add(this.printPreviewBarItem16);
             this.printPreviewRibbonPageGroup5.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Zoom;
             this.printPreviewRibbonPageGroup5.Name = "printPreviewRibbonPageGroup5";
             this.printPreviewRibbonPageGroup5.Text = "Zoom";
@@ -1675,8 +1675,6 @@ namespace SchoolManagementSystem.Students
             // 
             this.printPreviewRibbonPageGroup6.AllowTextClipping = false;
             this.printPreviewRibbonPageGroup6.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.printPreviewRibbonPageGroup6.ItemLinks.Add(this.printPreviewBarItem23);
-            this.printPreviewRibbonPageGroup6.ItemLinks.Add(this.printPreviewBarItem24);
             this.printPreviewRibbonPageGroup6.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Background;
             this.printPreviewRibbonPageGroup6.Name = "printPreviewRibbonPageGroup6";
             this.printPreviewRibbonPageGroup6.Text = "Page Background";
@@ -1685,8 +1683,6 @@ namespace SchoolManagementSystem.Students
             // 
             this.printPreviewRibbonPageGroup7.AllowTextClipping = false;
             this.printPreviewRibbonPageGroup7.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.printPreviewRibbonPageGroup7.ItemLinks.Add(this.printPreviewBarItem25);
-            this.printPreviewRibbonPageGroup7.ItemLinks.Add(this.printPreviewBarItem26);
             this.printPreviewRibbonPageGroup7.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Export;
             this.printPreviewRibbonPageGroup7.Name = "printPreviewRibbonPageGroup7";
             this.printPreviewRibbonPageGroup7.Text = "Export";
@@ -1695,7 +1691,6 @@ namespace SchoolManagementSystem.Students
             // 
             this.printPreviewRibbonPageGroup8.AllowTextClipping = false;
             this.printPreviewRibbonPageGroup8.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.printPreviewRibbonPageGroup8.ItemLinks.Add(this.printPreviewBarItem27);
             this.printPreviewRibbonPageGroup8.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Close;
             this.printPreviewRibbonPageGroup8.Name = "printPreviewRibbonPageGroup8";
             this.printPreviewRibbonPageGroup8.Text = "Close";
@@ -1717,7 +1712,6 @@ namespace SchoolManagementSystem.Students
             this.Name = "create_student_card";
             this.Size = new System.Drawing.Size(1261, 555);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();

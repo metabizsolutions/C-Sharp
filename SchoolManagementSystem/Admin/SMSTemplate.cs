@@ -54,7 +54,8 @@ namespace SchoolManagementSystem.Admin
                 new Setting{type = "fee_note"},
                  new Setting{type = "lecture_assign_sms"},
                  new Setting{type = "today_feecollection_sms"},
-                 new Setting{ type = "visitor_sms"}
+                 new Setting{ type = "visitor_sms"},
+                 new Setting{ type = "roll_slip_tnc"}
             };
             MySqlConnection con = new MySqlConnection(Login.constring);
 

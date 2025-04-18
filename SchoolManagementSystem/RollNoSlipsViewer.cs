@@ -11,7 +11,12 @@ namespace SchoolManagementSystem.Exam
 {
     public partial class RollNoSlipsViewer : Form
     {
-        private DataGridView dataGridViewSlips; private Button btnPrint; private Button btnCancel; private readonly string connectionString = "server=localhost;database=tnsbay_school;uid=root;pwd=;";
+        private DataGridView dataGridViewSlips;
+        private Button btnPrint;
+        private Button btnDelete;
+        private Button btnCancel;
+        private readonly string connectionString = "server=localhost;database=tnsbay_school;uid=root;pwd=;";
+
         public RollNoSlipsViewer()
         {
             InitializeComponents();
@@ -51,6 +56,14 @@ namespace SchoolManagementSystem.Exam
             };
             btnPrint.Click += BtnPrint_Click;
 
+            btnDelete = new Button
+            {
+                Text = "Delete Selected Slip",
+                Enabled = false,
+                Width = 150
+            };
+            btnDelete.Click += BtnDelete_Click;
+
             btnCancel = new Button
             {
                 Text = "Close",
@@ -59,6 +72,7 @@ namespace SchoolManagementSystem.Exam
             btnCancel.Click += (s, e) => this.Close();
 
             panel.Controls.Add(btnCancel);
+            panel.Controls.Add(btnDelete); // Added Delete button
             panel.Controls.Add(btnPrint);
 
             this.Controls.Add(dataGridViewSlips);
@@ -67,7 +81,9 @@ namespace SchoolManagementSystem.Exam
 
         private void DataGridViewSlips_SelectionChanged(object sender, EventArgs e)
         {
-            btnPrint.Enabled = dataGridViewSlips.SelectedRows.Count > 0;
+            bool hasSelection = dataGridViewSlips.SelectedRows.Count > 0;
+            btnPrint.Enabled = hasSelection;
+            btnDelete.Enabled = hasSelection; // Enable/disable Delete button
         }
 
         private void LoadSlips()
@@ -129,6 +145,64 @@ namespace SchoolManagementSystem.Exam
             }
         }
 
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewSlips.SelectedRows.Count == 0)
+                return;
+
+            var row = dataGridViewSlips.SelectedRows[0].DataBoundItem as DataRowView;
+            if (row == null)
+                return;
+
+            var result = MessageBox.Show(
+                "Are you sure you want to delete this roll number slip?",
+                "Confirm Delete",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                try
+                {
+                    long slipId = Convert.ToInt64(row["slip_id"]);
+                    using (MySqlConnection connection = new MySqlConnection(connectionString))
+                    {
+                        connection.Open();
+
+                        // Delete from roll_no_slip_subjects first (child table)
+                        string deleteSubjectsQuery = "DELETE FROM roll_no_slip_subjects WHERE slip_id = @slipId";
+                        using (MySqlCommand cmd = new MySqlCommand(deleteSubjectsQuery, connection))
+                        {
+                            cmd.Parameters.AddWithValue("@slipId", slipId);
+                            cmd.ExecuteNonQuery();
+                        }
+
+                        // Delete from roll_no_slips (parent table)
+                        string deleteSlipQuery = "DELETE FROM roll_no_slips WHERE slip_id = @slipId";
+                        using (MySqlCommand cmd = new MySqlCommand(deleteSlipQuery, connection))
+                        {
+                            cmd.Parameters.AddWithValue("@slipId", slipId);
+                            cmd.ExecuteNonQuery();
+                        }
+                    }
+
+                    // Refresh the grid
+                    LoadSlips();
+                    MessageBox.Show("Roll number slip deleted successfully.",
+                        "Success",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error deleting slip: {ex.Message}",
+                        "Error",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                }
+            }
+        }
+
         private List<SchoolManagementSystem.Roll_No_Slip.ExamSubject> GetSlipSubjects(long slipId)
         {
             var subjects = new List<SchoolManagementSystem.Roll_No_Slip.ExamSubject>();
@@ -173,7 +247,7 @@ namespace SchoolManagementSystem.Exam
                 PdfPage page = document.AddPage();
                 page.Orientation = PdfSharp.PageOrientation.Landscape;
                 page.Width = PdfSharp.Drawing.XUnit.FromPoint(842);
-                page.Height = PdfSharp.Drawing.XUnit.FromPoint(900);
+                page.Height = PdfSharp.Drawing.XUnit.FromPoint(595); // Adjusted to standard A4 height
 
                 using (XGraphics gfx = XGraphics.FromPdfPage(page))
                 {
@@ -204,15 +278,15 @@ namespace SchoolManagementSystem.Exam
                     gfx.DrawRectangle(new XPen(XColors.Black), padding, currentY, page.Width.Point - 2 * padding, 160);
                     string[] labels = { "Name:", "Father's Name:", "Roll No.:", "Group:", "Gender:", "Class:", "Section:", "Session:" };
                     string[] values = {
-                    studentDetails.Name,
-                    studentDetails.FatherName,
-                    studentDetails.RollNo,
-                    studentDetails.Group,
-                    studentDetails.Gender,
-                    studentDetails.Class,
-                    studentDetails.Section,
-                    studentDetails.Session
-                };
+                        studentDetails.Name,
+                        studentDetails.FatherName,
+                        studentDetails.RollNo,
+                        studentDetails.Group,
+                        studentDetails.Gender,
+                        studentDetails.Class,
+                        studentDetails.Section,
+                        studentDetails.Session
+                    };
 
                     for (int i = 0; i < labels.Length; i++)
                     {
@@ -245,12 +319,12 @@ namespace SchoolManagementSystem.Exam
                         gfx.DrawRectangle(new XPen(XColors.Black), padding, currentY, tableWidth, 20);
                         x = padding;
                         string[] row = {
-                        (i + 1).ToString(),
-                        subject.Date.ToString("dd/MM/yyyy"),
-                        subject.SubjectName,
-                        subject.StartTime.ToString("hh:mm tt"),
-                        subject.EndTime.ToString("hh:mm tt")
-                    };
+                            (i + 1).ToString(),
+                            subject.Date.ToString("dd/MM/yyyy"),
+                            subject.SubjectName,
+                            subject.StartTime.ToString("hh:mm tt"),
+                            subject.EndTime.ToString("hh:mm tt")
+                        };
                         for (int j = 0; j < row.Length; j++)
                         {
                             gfx.DrawString(row[j], regularFont, XBrushes.Black, x + 5, currentY + 15);
@@ -291,12 +365,31 @@ namespace SchoolManagementSystem.Exam
             }
         }
 
-        private string GetNotesText()
+        public string GetNotesText()
         {
-            return @"1) Those students will not be allowed in the exam who have not paid remaining dues.
-2) Late comers will not be permitted to sit in the examination according to the given syllabus.
-3) Parents are required to prepare their children according to the syllabus and other requirements.
-4) SSMPS reserves the right to modify the date sheet of annual exams due to weather or other unforeseen circumstances.";
+            string notes = string.Empty;
+            try
+            {
+                using (MySqlConnection con = new MySqlConnection(connectionString)) // Use class connectionString
+                {
+                    con.Open();
+                    MySqlCommand cmd = new MySqlCommand("SELECT description FROM settings WHERE type='roll_slip_tnc'", con);
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            notes = reader["description"].ToString();
+                        }
+                    }
+                    reader.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                notes = "Error retrieving notes: " + ex.Message;
+            }
+            return notes;
         }
     }
 }
