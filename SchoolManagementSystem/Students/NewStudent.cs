@@ -292,7 +292,7 @@ namespace SchoolManagementSystem.Students
                 int classID = Convert.ToInt32(txtClass.EditValue);
                 int free_std = chb_free_std.Checked ? 1 : 0;
                 string dob = string.IsNullOrEmpty(txtDOB.Text) ? "0001-01-01" : Convert.ToDateTime(txtDOB.Text).ToString("yyyy-MM-dd");
-                query = "INSERT into student(registration_no,religion,free_student,free_std_remakrs,name,birthday,sex,address,phone,class_id,section_id,parent_id,roll,attendent_sms,exam_sms,fees_sms,enotice_sms,fee_concession,addmission_concession,p_school,security_concession,annual_concession,exam_concession) " +
+                query = "INSERT into student(student_id,religion,free_student,free_std_remakrs,name,birthday,sex,address,phone,class_id,section_id,parent_id,roll,attendent_sms,exam_sms,fees_sms,enotice_sms,fee_concession,addmission_concession,p_school,security_concession,annual_concession,exam_concession) " +
                     " VALUES('"+txt_registration.Text+"','"+txt_religion.Text+"','"+ free_std + "','"+txt_free_std_remarks.Text+"','" + txtName.Text + "','" + dob + "','" + txtGender.Text + "','" + txtAddress.Text + "','" + txtPhone.Text + "','" + classID + "','" + txtSection.EditValue.ToString() + "','" + parent_id + "','" + roll + "','" + smsAttendant + "','" + smsexam + "','" + smsfee + "','" + smsenotice + "','" + Convert.ToInt32(txtfeeC.Text) + "','" + Convert.ToInt32(txtAdmission.Text) + "','" + school_id + "','" + txtSecurityC.Text + "','" + txtAnnualC.Text + "','" + txtExamC.Text + "');";
                 long student_id = fun.Execute_Insert(query);
 

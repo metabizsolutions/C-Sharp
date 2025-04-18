@@ -300,12 +300,32 @@ namespace SchoolManagementSystem.Roll_No_Slip
             }
         }
 
-        private string GetNotesText()
+        public string GetNotesText()
         {
-            return @"1) Those students will not be allowed in the exam who have not paid remaining dues.
-2) Late comers will not be permitted to sit in the examination according to the given syllabus.
-3) Parents are required to prepare their children according to the syllabus and other requirements.
-4) SSMPS reserves the right to modify the date sheet of annual exams due to weather or other unforeseen circumstances.";
+            string notes = string.Empty;
+            try
+            {
+                using (MySqlConnection con = new MySqlConnection(Login.constring))
+                {
+                    con.Open();
+                    MySqlCommand cmd = new MySqlCommand("SELECT description FROM settings WHERE type='roll_slip_tnc'", con);
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            notes = reader["description"].ToString();
+                        }
+                    }
+                    reader.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle exception (e.g., log error or show message)
+                notes = "Error retrieving notes: " + ex.Message;
+            }
+            return notes;
         }
 
         private List<ExamSubject> FetchExamSubjectsFromDatabase(string className, string section)
