@@ -2983,14 +2983,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSP Management.exe" size="14701056">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSP Management.exe" size="14713856">
       <assemblyIdentity name="OSP Management" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VeQbXPNrUhtZJC66bDuL7nY5ilsfd1xVTL6GhMIuhgE=</dsig:DigestValue>
+        <dsig:DigestValue>AiwxL4OvS979SbRl/n3wc+9sCybDHW1yo0E/1K8gSlM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3002,7 +3002,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7o3IfQdyluqlVuluiCOlc5LDgf/KQD9bSqvIjkxF5Ow=</dsig:DigestValue>
+        <dsig:DigestValue>d7ES2kF+bD6AAjXF96mjHCL4pVZfuVkFnuN/MRuduIQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3014,7 +3014,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AD2mc5gb/C/27MhFShqX5XcwV8AMWG5YYdzV6ycThgU=</dsig:DigestValue>
+        <dsig:DigestValue>GBjg6yEnN7EqsqsHzdVGJpx8+juxM18/W+l/nW+B4jM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3026,7 +3026,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ODDH8Gz53jBkA648Q7BYDRSxhJ+iWnJi3rDlFacevFU=</dsig:DigestValue>
+        <dsig:DigestValue>Rw7tVPLnPHPWu60ycr7kmdNOaEI2i6MYy9dM4qL1ixQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3038,7 +3038,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>i7kspMU6BUeRR7WcQzfGoVjOu68wGgvLFrftmaUOGZs=</dsig:DigestValue>
+        <dsig:DigestValue>9swTQAmKP/VVDFTk/4HmEy8oFvHrD+AzTJkD89pIt4A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PdfiumViewer.dll" size="115712">
+      <assemblyIdentity name="PdfiumViewer" version="2.13.0.0" publicKeyToken="91E4789CFB0609E0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZfH8v0qDbPN6DoyjK63A+4G5OHAUzhQcwF5dpxFIa6g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl\PdfiumViewer.resources.dll" size="4608">
+      <assemblyIdentity name="PdfiumViewer.resources" version="2.13.0.0" publicKeyToken="91E4789CFB0609E0" language="nl" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZCZVDasJn1Wllz3/QEmIpE2A0JcKuj8hT67j06OhlE4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3351,13 +3375,13 @@
       <dsig:DigestValue>7q7nGWspp0gzQgy8ZscjRq/qz1VUR1etcio6v0a0TNk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="OSP Management.exe.config" size="6403">
+  <file name="OSP Management.exe.config" size="6210">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>LiKbDF+SEecjYz67JrERNsVHnFo+GCBbeLQKgLRfMIQ=</dsig:DigestValue>
+      <dsig:DigestValue>1QRFFzc3Oh9HpK4/xVJuVCwVHWKe1u/1HpCmVUhnxTU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ospicon.ico" size="67646">
@@ -3448,6 +3472,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>QIaZ3Uunzylit3BOmWz8F0/b9xGXP3H4kzjgDr7HguE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\pdfium.dll" size="13634048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jTAQhnQCckVMapLjyYQmYX+k7RERSYnwaRPCEnpKI+I=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

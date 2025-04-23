@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using PdfSharp.Drawing;
-using PdfSharp.Pdf;
-using System.Diagnostics;
 using SchoolManagementSystem.Exam;
 
 namespace SchoolManagementSystem.Roll_No_Slip
@@ -68,7 +65,22 @@ namespace SchoolManagementSystem.Roll_No_Slip
 
             if (studentDetailsList.Count > 0)
             {
-                CreatePdf();
+                // Save roll no slips to database for all students
+                try
+                {
+                    foreach (var studentDetails in studentDetailsList)
+                    {
+                        var examSubjectsForStudent = studentExamSubjects[studentDetails];
+                        SaveSlipToDatabase(studentDetails, examSubjectsForStudent);
+                    }
+                    MessageBox.Show("Roll No Slips created Successfully!", "Success",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error saving roll no slips: {ex.Message}", "Error",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -98,6 +110,7 @@ namespace SchoolManagementSystem.Roll_No_Slip
                 return false;
             }
         }
+
         private void SaveSlipToDatabase(StudentDetails student, List<ExamSubject> subjects)
         {
             using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -155,177 +168,10 @@ namespace SchoolManagementSystem.Roll_No_Slip
                     catch (Exception ex)
                     {
                         transaction.Rollback();
-                        MessageBox.Show("Error saving slip to database: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        throw new Exception("Error saving slip to database: " + ex.Message);
                     }
                 }
             }
-        }
-
-        private void CreatePdf()
-        {
-            try
-            {
-                using (PdfDocument document = new PdfDocument())
-                {
-                    foreach (var studentDetails in studentDetailsList)
-                    {
-                        var examSubjects = studentExamSubjects[studentDetails];
-                        SaveSlipToDatabase(studentDetails, examSubjects);
-                        PdfPage page = document.AddPage();
-                        page.Orientation = PdfSharp.PageOrientation.Landscape;
-                        page.Width = PdfSharp.Drawing.XUnit.FromPoint(842); // A4 landscape width
-                        page.Height = PdfSharp.Drawing.XUnit.FromPoint(900); // A4 landscape height
-
-                        using (XGraphics gfx = XGraphics.FromPdfPage(page))
-                        {
-                            // Cast System.Drawing.FontStyle to PdfSharp.Drawing.XFontStyle
-                            XFont headerFont = new XFont("Arial", 14, (PdfSharp.Drawing.XFontStyle)System.Drawing.FontStyle.Bold);
-                            XFont titleFont = new XFont("Arial", 12, (PdfSharp.Drawing.XFontStyle)System.Drawing.FontStyle.Bold);
-                            XFont regularFont = new XFont("Arial", 10, (PdfSharp.Drawing.XFontStyle)System.Drawing.FontStyle.Regular);
-                            XFont boldFont = new XFont("Arial", 10, (PdfSharp.Drawing.XFontStyle)System.Drawing.FontStyle.Bold);
-
-                            int padding = 20;
-                            int currentY = padding;
-
-                            // Header
-                            gfx.DrawRectangle(XBrushes.LightBlue, padding, currentY, page.Width.Point - 2 * padding, 80);
-                            gfx.DrawString("Sunrise Model Public School & College", headerFont, XBrushes.Black,
-                                new XRect(padding, currentY + 10, page.Width.Point, 0), XStringFormats.TopCenter);
-                            gfx.DrawString("KHUZUAB (B ALOGHEI5740)", regularFont, XBrushes.Black,
-                                new XRect(padding, currentY + 40, page.Width.Point, 0), XStringFormats.TopCenter);
-                            gfx.DrawString("Phone: 084612999 Mob: 03337881630/03337972999", regularFont, XBrushes.Black,
-                                new XRect(padding, currentY + 60, page.Width.Point, 0), XStringFormats.TopCenter);
-                            currentY += 100;
-
-                            // Title
-                            gfx.DrawString($"DateSheet / Roll No.Slip of session {studentDetails.Session}", titleFont, XBrushes.Black,
-                                new XRect(padding, currentY, page.Width.Point, 0), XStringFormats.TopCenter);
-                            currentY += 30;
-
-                            // Student Info
-                            gfx.DrawRectangle(new XPen(XColors.Black), padding, currentY, page.Width.Point - 2 * padding, 160);
-                            string[] labels = { "Name:", "Father's Name:", "Roll No.:", "Group:", "Gender:", "Class:", "Section:", "Session:" };
-                            string[] values = {
-                        studentDetails.Name,
-                        studentDetails.FatherName,
-                        studentDetails.RollNo,
-                        studentDetails.Group,
-                        studentDetails.Gender,
-                        studentDetails.Class,
-                        studentDetails.Section,
-                        studentDetails.Session
-                    };
-
-                            for (int i = 0; i < labels.Length; i++)
-                            {
-                                gfx.DrawString(labels[i], boldFont, XBrushes.Black, padding + 10, currentY + 10 + (i * 20));
-                                gfx.DrawString(values[i], regularFont, XBrushes.Black, padding + 140, currentY + 10 + (i * 20));
-                            }
-                            currentY += 190;
-
-                            // Exam Schedule
-                            gfx.DrawString("Exam Schedule", titleFont, XBrushes.Black, padding, currentY);
-                            currentY += 20;
-
-                            // Table header
-                            int tableWidth = (int)(page.Width.Point - 2 * padding);
-                            int[] columnWidths = { 50, 100, 200, 100, 100 };
-                            string[] headers = { "Sr#", "Date", "Subject", "Start Time", "End Time" };
-                            gfx.DrawRectangle(new XPen(XColors.Black), XBrushes.LightGray, padding, currentY, tableWidth, 20);
-                            int x = padding;
-                            for (int i = 0; i < headers.Length; i++)
-                            {
-                                gfx.DrawString(headers[i], boldFont, XBrushes.Black, x + 5, currentY + 15);
-                                x += columnWidths[i];
-                            }
-                            currentY += 30;
-
-                            // Table rows
-                            for (int i = 0; i < examSubjects.Count; i++)
-                            {
-                                var subject = examSubjects[i];
-                                gfx.DrawRectangle(new XPen(XColors.Black), padding, currentY, tableWidth, 20);
-                                x = padding;
-                                string[] row = {
-                            (i + 1).ToString(),
-                            subject.Date.ToString("dd/MM/yyyy"),
-                            subject.SubjectName,
-                            subject.StartTime.ToString("hh:mm tt"),
-                            subject.EndTime.ToString("hh:mm tt")
-                        };
-                                for (int j = 0; j < row.Length; j++)
-                                {
-                                    gfx.DrawString(row[j], regularFont, XBrushes.Black, x + 5, currentY + 15);
-                                    x += columnWidths[j];
-                                }
-                                currentY += 20;
-                            }
-
-                            // Notes
-                            currentY += 10;
-                            gfx.DrawString("Notes:", boldFont, XBrushes.Black, padding, currentY);
-                            currentY += 20;
-                            string notes = GetNotesText();
-                            string[] noteLines = notes.Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
-                            foreach (var line in noteLines)
-                            {
-                                gfx.DrawString(line, regularFont, XBrushes.Black, padding, currentY);
-                                currentY += 15;
-                            }
-
-                            // Signature and Date
-                            currentY += 20;
-                            gfx.DrawString("Principal's Signature", boldFont, XBrushes.Black, padding, currentY);
-                            gfx.DrawString($"Issued Date & time: {DateTime.Now:yyyy/MM/dd HH:mm:ss}", regularFont, XBrushes.Black,
-                                page.Width.Point - padding - 200, currentY);
-                        }
-                    }
-
-                    // Save PDF to Desktop
-                    string pdfPath = System.IO.Path.Combine(
-                        Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                        $"RollNoSlips_{DateTime.Now:yyyyMMdd_HHmmss}.pdf");
-                    document.Save(pdfPath);
-                    MessageBox.Show($"PDF generated successfully at: {pdfPath}", "Success",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    // Optionally open the PDF
-                    Process.Start(new ProcessStartInfo(pdfPath) { UseShellExecute = true });
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error generating PDF: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        public string GetNotesText()
-        {
-            string notes = string.Empty;
-            try
-            {
-                using (MySqlConnection con = new MySqlConnection(Login.constring))
-                {
-                    con.Open();
-                    MySqlCommand cmd = new MySqlCommand("SELECT description FROM settings WHERE type='roll_slip_tnc'", con);
-                    MySqlDataReader reader = cmd.ExecuteReader();
-                    if (reader.HasRows)
-                    {
-                        while (reader.Read())
-                        {
-                            notes = reader["description"].ToString();
-                        }
-                    }
-                    reader.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                // Handle exception (e.g., log error or show message)
-                notes = "Error retrieving notes: " + ex.Message;
-            }
-            return notes;
         }
 
         private List<ExamSubject> FetchExamSubjectsFromDatabase(string className, string section)
@@ -454,7 +300,7 @@ namespace SchoolManagementSystem.Roll_No_Slip
             this.btnOK = new Button();
             this.btnCancel = new Button();
 
-            // label1
+            // label不同
             this.label1.AutoSize = true;
             this.label1.Location = new Point(20, 20);
             this.label1.Text = "Start Time:";
