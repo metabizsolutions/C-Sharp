@@ -53,11 +53,11 @@ namespace SchoolManagementSystem.Students
                 snapControl1.Document.DataSources.Clear();
                 snapControl1.Document.DataSources.Add(new DataSourceInfo("ExperienceLetter", fun.experience_letter(row)));
             }
-            /*else if (Type == "student_card_default.snx")
+            else if (Type == "student_card_default.snx")
             {
                 snapControl1.Document.DataSources.Clear();
                 snapControl1.Document.DataSources.Add(new DataSourceInfo("StudentCard", fun.std_card(row)));
-            }*/
+            }
         }
 
         private void barEditItem_receipt_list_EditValueChanged(object sender, EventArgs e)

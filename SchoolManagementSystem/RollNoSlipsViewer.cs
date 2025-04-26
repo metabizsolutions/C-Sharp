@@ -761,9 +761,22 @@ namespace SchoolManagementSystem.Exam
                         page.Width.Point - padding - 200, currentY);
                 }
 
+                string sanitizedFileName = $"Name={studentDetails.Name}_Class={studentDetails.Class}_Section={studentDetails.Section}_RollNo={studentDetails.RollNo}"
+    .Replace(" ", "_")  // Replace spaces with underscores
+    .Replace("/", "-")  // Replace slashes (invalid in file names)
+    .Replace("\\", "-") // Replace backslashes
+    .Replace(":", "-")  // Replace colons
+    .Replace("*", "-")  // Replace asterisks
+    .Replace("?", "")   // Remove question marks
+    .Replace("\"", "")  // Remove double quotes
+    .Replace("<", "")   // Remove less than
+    .Replace(">", "")   // Remove greater than
+    .Replace("|", "");  // Remove pipe
+
                 string pdfPath = Path.Combine(
                     Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                    $"RollNoSlip_Reprint_{DateTime.Now:yyyyMMdd_HHmmss}.pdf");
+                    $"{sanitizedFileName}.pdf");
+
                 document.Save(pdfPath);
                 MessageBox.Show($"PDF generated successfully at: {pdfPath}", "Success",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
