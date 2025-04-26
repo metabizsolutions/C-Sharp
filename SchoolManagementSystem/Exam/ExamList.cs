@@ -1,7 +1,6 @@
 ﻿using DevExpress.XtraEditors.Repository;
 using DevExpress.XtraGrid.Columns;
 using MySql.Data.MySqlClient;
-using SchoolManagementSystem.Datesheet;
 using System;
 using System.Data;
 using System.Media;
@@ -146,11 +145,10 @@ namespace SchoolManagementSystem.Exam
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            SchoolManagementSystem.Roll_No_Slip.Form1 form1 = new SchoolManagementSystem.Roll_No_Slip.Form1();
             form1.Show();
         }
 
-        // In the button2_Click method, replace with this code:
         private void button2_Click(object sender, EventArgs e)
         {
             try
@@ -162,7 +160,7 @@ namespace SchoolManagementSystem.Exam
                     return;
                 }
 
-                using (var studentDialog = new StudentDetailsDialog())
+                using (var studentDialog = new SchoolManagementSystem.Roll_No_Slip.StudentDetailsDialog())
                 {
                     if (studentDialog.ShowDialog() == DialogResult.OK)
                     {
@@ -175,22 +173,25 @@ namespace SchoolManagementSystem.Exam
                             return;
                         }
 
-                        // Generate roll no slip for each selected student
-                        foreach (var student in selectedStudents)
+                        // Create a single roll no slip form
+                        var rollNoSlip = new SchoolManagementSystem.Roll_No_Slip.Form1(this);
+                        try
                         {
-                            // Create new roll no slip form
-                            var rollNoSlip = new SchoolManagementSystem.Roll_No_Slip.Form1();
-
-                            // Updated call to SetStudentDetails in button2_Click
+                            // Pass all selected students to SetStudentDetails
                             rollNoSlip.SetStudentDetails(
-     selectedStudents,
-     studentDialog.SelectedClass,
-     studentDialog.SelectedSection,
-     studentDialog.SelectedSession
- );
+                                selectedStudents,
+                                studentDialog.SelectedClass,
+                                studentDialog.SelectedSection,
+                                studentDialog.SelectedSession
+                            );
 
-                            // Show the roll no slip form
-                            rollNoSlip.Show();
+                            // Show the roll no slip form as a dialog
+                            rollNoSlip.ShowDialog();
+                        }
+                        finally
+                        {
+                            // Ensure the form is disposed after use
+                            rollNoSlip.Dispose();
                         }
                     }
                 }
@@ -217,6 +218,5 @@ namespace SchoolManagementSystem.Exam
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
     }
 }

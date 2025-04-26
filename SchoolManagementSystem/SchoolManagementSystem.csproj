@@ -803,12 +803,6 @@
     <Compile Include="Discipline\ManagePoints.Designer.cs">
       <DependentUpon>ManagePoints.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exam\ExamSubjectsDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Exam\ExamSubjectsDialog.Designer.cs">
-      <DependentUpon>ExamSubjectsDialog.cs</DependentUpon>
-    </Compile>
     <Compile Include="Exam\ManageMarksGovt.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -820,12 +814,6 @@
     </Compile>
     <Compile Include="Exam\Multi_ClassResult.Designer.cs">
       <DependentUpon>Multi_ClassResult.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Exam\StudentDetailsDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Exam\StudentDetailsDialog.Designer.cs">
-      <DependentUpon>StudentDetailsDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="Exam\SubjectTotalMarks.cs">
       <SubType>UserControl</SubType>
@@ -1957,9 +1945,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exam\Multi_ClassResult.resx">
       <DependentUpon>Multi_ClassResult.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Exam\StudentDetailsDialog.resx">
-      <DependentUpon>StudentDetailsDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exam\SubjectTotalMarks.resx">
       <DependentUpon>SubjectTotalMarks.cs</DependentUpon>
